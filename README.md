@@ -148,6 +148,16 @@ and fails when the installed bundle has no complete file for one of them: that
 visitor would read the records in their language and every label in English.
 `--languages` asks about another set, for a website about to offer one.
 
+## Licence
+
+This package is Content of the MWNF Website under the [MWNF legal
+notice](https://www.museumwnf.org/about/legal-notice), which governs its use
+(non-commercial, personal, educational and scientific use is permitted, with
+attribution and mandatory reporting — see the notice for the full terms). The
+notice text also ships in this package as `LICENSE.md`. This package carries
+translated data (the dictionary), not just code, so the notice governs the
+texts as much as it governs the data packages.
+
 ## Release procedure
 
 1. Merge to `main` via a pull request (CI validates the texts and builds every
