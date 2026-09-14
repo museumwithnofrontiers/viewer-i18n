@@ -1,3 +1,6 @@
+## 3.1.1
+
+First version published to npmjs through the trusted-publishing release pipeline (no functional change).
 ## 3.1.0
 
 Part of the M1 npmjs-publishing epic (metanull/inventory-app#1721).
@@ -413,4 +416,5 @@ any website offers.
   ~170 the two share and the ones the new namespaces now say again. Nothing
   reads the new ones yet; the websites move over one by one, and the
   duplicates go in a later major once nothing reads them.
+
 
