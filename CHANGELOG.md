@@ -1,3 +1,23 @@
+## 3.1.0
+
+Part of the M1 npmjs-publishing epic (metanull/inventory-app#1721).
+
+### Changed
+
+- Package renamed `@metanull/viewer-i18n` → `@museumwnf/viewer-i18n` and
+  publishing moves to npmjs (`registry.npmjs.org`) via trusted publishing
+  (OIDC), replacing GitHub Packages for all future versions. The last
+  `@metanull/viewer-i18n` version stays published, frozen, on GitHub
+  Packages. `viewer-i18n-check`'s data-package and dist-bundle discovery
+  (`tools/check.mjs`) now looks under `node_modules/@museumwnf` instead of
+  `node_modules/@metanull`. `publishConfig.registry` now points at npmjs;
+  `release.yml` passes `registry: npmjs` to `package-release.yml@v1.6.0`.
+- `ci.yml`'s `package-ci.yml` pin moves to `v1.6.1`, which alias-installs a
+  renaming PR's tarball under both the new and the pre-rename name in the
+  downstream site matrix — without it, every site (still importing
+  `@metanull/viewer-i18n`) would silently build against the last published
+  version instead of this PR's code (metanull/viewer-workflows#17).
+
 ## 3.0.1
 
 Version 3.0.0 was published from commit ee037cf by mistake and carries none of these removals. This release is the first version to contain them.

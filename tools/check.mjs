@@ -615,11 +615,11 @@ export async function scanSources(dir, compiler, { namespaces = null } = {}) {
  * The languages a website offers: what its data package's `manifest.site.languages`
  * declares — the same list viewer-core's `offeredLanguages()` reads — or the
  * `--languages` option when the check is asked about a different set. A
- * website has one data package, so the first `@metanull/*-data` found is it.
+ * website has one data package, so the first `@museumwnf/*-data` found is it.
  */
 export function offeredLanguages(dir, override) {
   if (override) return { languages: override, from: 'the --languages option' }
-  const scope = join(dir, 'node_modules', '@metanull')
+  const scope = join(dir, 'node_modules', '@museumwnf')
   if (!existsSync(scope)) return null
   for (const name of readdirSync(scope).sort()) {
     if (!name.endsWith('-data')) continue
@@ -635,7 +635,7 @@ export function offeredLanguages(dir, override) {
     const languages = declared
       .map((entry) => (typeof entry === 'string' ? entry : entry?.code))
       .filter(Boolean)
-    return { languages, from: `@metanull/${name}` }
+    return { languages, from: `@museumwnf/${name}` }
   }
   return null
 }
@@ -647,7 +647,7 @@ export async function checkApp(dir, { languages: override } = {}) {
   const site = siteDeclaration(dir, registry, problems)
   if (!site) return { problems, notes }
 
-  const bundleDir = join(dir, 'node_modules', '@metanull', 'viewer-i18n', 'dist', site.class)
+  const bundleDir = join(dir, 'node_modules', '@museumwnf', 'viewer-i18n', 'dist', site.class)
   const bundleFile = join(bundleDir, `${BASE_LANGUAGE}.json`)
   if (!existsSync(bundleFile)) {
     problems.push(
