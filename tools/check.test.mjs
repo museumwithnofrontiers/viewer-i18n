@@ -253,7 +253,7 @@ describe('a website', () => {
 describe('the call sites', () => {
   /** A component whose `t` is the one that looks a text up. */
   const withI18n = (body) =>
-    `<script setup>import { useI18n } from '@metanull/viewer-core'\nconst { t } = useI18n()\n${body}</script>`
+    `<script setup>import { useI18n } from '@museumwnf/viewer-core'\nconst { t } = useI18n()\n${body}</script>`
 
   it('finds every way a text is asked for, and ignores lookalikes', async () => {
     const dir = scratch({
@@ -353,7 +353,7 @@ describe('the call sites', () => {
       'package.json': { name: 'carpets', viewerI18n: { class: 'gallery', namespace: 'carpets' } },
       'locales/en.json': {},
       'src/A.vue': withI18n("const a = t('gallery.sheet.missing')"),
-      'node_modules/@metanull/viewer-i18n/dist/gallery/en.json': { 'gallery.sheet.name': 'Name:' },
+      'node_modules/@museumwnf/viewer-i18n/dist/gallery/en.json': { 'gallery.sheet.name': 'Name:' },
     })
     assert.match(messagesOf(await checkApp(dir)), /does not exist/)
   })
@@ -363,7 +363,7 @@ describe('the call sites', () => {
       'package.json': { name: 'carpets', viewerI18n: { class: 'gallery', namespace: 'carpets' } },
       'locales/en.json': {},
       'src/spec.js': "export const sheet = { title: 'gallery.sheet.missing' }",
-      'node_modules/@metanull/viewer-i18n/dist/gallery/en.json': { 'gallery.sheet.name': 'Name:' },
+      'node_modules/@museumwnf/viewer-i18n/dist/gallery/en.json': { 'gallery.sheet.name': 'Name:' },
     })
     assert.match(messagesOf(await checkApp(dir)), /gallery\.sheet\.missing.*does not exist/)
   })
@@ -375,7 +375,7 @@ describe('the call sites', () => {
       'src/A.vue': withI18n(
         "const a = t('gallery.sheet.name'); const b = t('carpets.identity.title')"
       ),
-      'node_modules/@metanull/viewer-i18n/dist/gallery/en.json': { 'gallery.sheet.name': 'Name:' },
+      'node_modules/@museumwnf/viewer-i18n/dist/gallery/en.json': { 'gallery.sheet.name': 'Name:' },
     })
     assert.deepEqual((await checkApp(dir)).problems, [])
   })
@@ -386,11 +386,11 @@ describe('the languages a website offers', () => {
     scratch({
       'package.json': { name: 'carpets', viewerI18n: { class: 'gallery', namespace: 'carpets' } },
       'locales/en.json': {},
-      'node_modules/@metanull/viewer-i18n/dist/gallery/en.json': {
+      'node_modules/@museumwnf/viewer-i18n/dist/gallery/en.json': {
         'gallery.sheet.name': 'Name:',
         'gallery.nav.about': 'About',
       },
-      'node_modules/@metanull/carpets-data/manifest.json': {
+      'node_modules/@museumwnf/carpets-data/manifest.json': {
         site: { languages: [{ code: 'ar', label: 'العربية' }, { code: 'en', label: 'English' }] },
       },
       ...files,
@@ -398,7 +398,7 @@ describe('the languages a website offers', () => {
 
   it('are read from the data package, the way the website reads them', () => {
     const dir = app()
-    assert.deepEqual(offeredLanguages(dir), { languages: ['ar', 'en'], from: '@metanull/carpets-data' })
+    assert.deepEqual(offeredLanguages(dir), { languages: ['ar', 'en'], from: '@museumwnf/carpets-data' })
   })
 
   it('must each reach the shared texts', async () => {
@@ -408,14 +408,14 @@ describe('the languages a website offers', () => {
 
   it('must each reach every shared text', async () => {
     const dir = app({
-      'node_modules/@metanull/viewer-i18n/dist/gallery/ar.json': { 'gallery.sheet.name': 'الاسم:' },
+      'node_modules/@museumwnf/viewer-i18n/dist/gallery/ar.json': { 'gallery.sheet.name': 'الاسم:' },
     })
     assert.match(messagesOf(await checkApp(dir)), /offers \*\*ar\*\*.*lack 1 of their 2 entries/)
   })
 
   it('are satisfied by a complete bundle, and say where the own entries fall back', async () => {
     const dir = app({
-      'node_modules/@metanull/viewer-i18n/dist/gallery/ar.json': {
+      'node_modules/@museumwnf/viewer-i18n/dist/gallery/ar.json': {
         'gallery.sheet.name': 'الاسم:',
         'gallery.nav.about': 'نبذة',
       },

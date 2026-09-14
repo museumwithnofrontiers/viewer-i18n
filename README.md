@@ -98,12 +98,12 @@ Each kind of website receives one prebuilt bundle, and nothing else:
 
 | Kind | Bundle | Contains |
 | --- | --- | --- |
-| Products (Islamic Art, Baroque Art, Sharing History) | `@metanull/viewer-i18n/standalone` | `core` + `layout` + `catalogue` + `sheet` + `record` + `exhibition` + `timeline` + `partner` |
-| Galleries | `@metanull/viewer-i18n/gallery` | the same, with `gallery` in place of `exhibition` |
-| Exhibitions | `@metanull/viewer-i18n/exhibition` | the same as Products |
+| Products (Islamic Art, Baroque Art, Sharing History) | `@museumwnf/viewer-i18n/standalone` | `core` + `layout` + `catalogue` + `sheet` + `record` + `exhibition` + `timeline` + `partner` |
+| Galleries | `@museumwnf/viewer-i18n/gallery` | the same, with `gallery` in place of `exhibition` |
+| Exhibitions | `@museumwnf/viewer-i18n/exhibition` | the same as Products |
 
 ```js
-import { catalogues } from '@metanull/viewer-i18n/gallery'
+import { catalogues } from '@museumwnf/viewer-i18n/gallery'
 // { en: { 'core.nav.home': 'Home', … } }
 ```
 
@@ -143,7 +143,7 @@ composed views. A plain string reads as a name when it has three parts and its
 first is a section the website receives; every name found has to exist.
 
 `--app` also reads the languages the website offers — `manifest.site.languages`
-of the installed `@metanull/<dataset>-data`, the list the website itself reads —
+of the installed `@museumwnf/<dataset>-data`, the list the website itself reads —
 and fails when the installed bundle has no complete file for one of them: that
 visitor would read the records in their language and every label in English.
 `--languages` asks about another set, for a website about to offer one.
@@ -162,7 +162,9 @@ texts as much as it governs the data packages.
 
 1. Merge to `main` via a pull request (CI validates the texts and builds every
    website against the packed tarball).
-2. Create a GitHub release tagged `vX.Y.Z` — CI publishes to GitHub Packages.
+2. Create a GitHub release tagged `vX.Y.Z` — CI publishes to npmjs (versions up
+   to 3.0.1, published as `@metanull/viewer-i18n`, remain available on GitHub
+   Packages, frozen; no new version is published there).
 3. Semver: **patch** = a text changed; **minor** = an entry or a language
    added; **major** = an entry renamed or removed.
 

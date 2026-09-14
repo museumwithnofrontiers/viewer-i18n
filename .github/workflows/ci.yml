@@ -16,10 +16,10 @@ permissions:
 
 jobs:
   ci:
-    uses: metanull/viewer-workflows/.github/workflows/package-ci.yml@v1.5.1
+    uses: metanull/viewer-workflows/.github/workflows/package-ci.yml@v1.6.1
 
   texts:
-    uses: metanull/viewer-workflows/.github/workflows/locale-validate.yml@v1.5.1
+    uses: metanull/viewer-workflows/.github/workflows/locale-validate.yml@v1.6.0
     with:
       mode: dictionary
       texts_path: "core/ layout/ catalogue/ sheet/ record/ gallery/ exhibition/"
