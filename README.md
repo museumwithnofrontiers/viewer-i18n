@@ -169,5 +169,5 @@ texts as much as it governs the data packages.
    added; **major** = an entry renamed or removed.
 
 Websites receive it through the platform's propagation run — see
-[MAINTENANCE.md](https://github.com/metanull/viewer-workflows/blob/main/MAINTENANCE.md)
+[MAINTENANCE.md](https://github.com/museumwithnofrontiers/viewer-workflows/blob/main/MAINTENANCE.md)
 in `viewer-workflows`.
