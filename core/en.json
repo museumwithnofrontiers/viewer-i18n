@@ -19,12 +19,9 @@
   "core.pagination.next": "Next",
   "core.pagination.previous": "Previous",
   "core.project.baroqueArt": "Discover Baroque Art",
-  "core.project.carpetArt": "Discover Carpet Art",
   "core.project.explorePartners": "Explore Islamic Art Collections",
   "core.project.galleries": "MWNF Galleries",
-  "core.project.glassArt": "Discover Glass Art",
   "core.project.islamicArt": "Discover Islamic Art",
   "core.project.sharingHistory": "Sharing History",
-  "core.project.tableIsSet": "The Table is Set",
   "core.status.loading": "Loading…"
 }
