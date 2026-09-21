@@ -1,3 +1,25 @@
+## 4.0.0 (2026-09-21)
+
+Part of epic metanull/inventory-app#1727, cleanup wave (metanull/inventory-app#1859).
+
+### Removed
+
+3 `core.project.*` entries no consumer reads any more, across every language
+the `core` namespace ships. No consumer since `@museumwnf/viewer-core` 2.0.0
+removed the legacy project-key map (`PROJECT_ENTRIES`/`PROJECT_FAMILIES`/
+`projectFamily`) that these labels served:
+
+- `core.project.carpetArt`
+- `core.project.glassArt`
+- `core.project.tableIsSet`
+
+### Kept
+
+5 `core.project.*` entries stay: `galleries`, `islamicArt`, `baroqueArt`,
+`sharingHistory` (read by carpets/amulets `SiteShell.vue`/`Home.vue` as
+sibling-site names) and `explorePartners` (read by islamicart
+`composables/search.js`).
+
 ## 3.1.1
 
 First version published to npmjs through the trusted-publishing release pipeline (no functional change).

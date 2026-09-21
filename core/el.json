@@ -19,12 +19,9 @@
   "core.pagination.next": "Επόμενη",
   "core.pagination.previous": "Προηγούμενη",
   "core.project.baroqueArt": "Discover Baroque Art",
-  "core.project.carpetArt": "Discover Carpet Art",
   "core.project.explorePartners": "Εξερευνήστε τις συλλογές ισλαμικής τέχνης",
   "core.project.galleries": "Γκαλερί MWNF",
-  "core.project.glassArt": "Discover Glass Art",
   "core.project.islamicArt": "Discover Islamic Art",
   "core.project.sharingHistory": "Sharing History",
-  "core.project.tableIsSet": "The Table is Set",
   "core.status.loading": "Φόρτωση…"
 }
