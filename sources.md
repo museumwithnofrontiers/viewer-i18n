@@ -1,6 +1,6 @@
 # Where the translations come from
 
-Decision D6 of the shared-pages epic (metanull/inventory-app#1691): the texts
+Decision D6 of the shared-pages epic (museumwithnofrontiers/inventory-app#1691): the texts
 the legacy websites already had in a language are reused, and only what
 legacy never had is translated new. This file is the trace, so that a
 translator reviewing an entry can find the sentence it descends from.

@@ -1,6 +1,6 @@
 ## 4.0.0 (2026-09-21)
 
-Part of epic metanull/inventory-app#1727, cleanup wave (metanull/inventory-app#1859).
+Part of epic museumwithnofrontiers/inventory-app#1727, cleanup wave (museumwithnofrontiers/inventory-app#1859).
 
 ### Removed
 
@@ -25,7 +25,7 @@ sibling-site names) and `explorePartners` (read by islamicart
 First version published to npmjs through the trusted-publishing release pipeline (no functional change).
 ## 3.1.0
 
-Part of the M1 npmjs-publishing epic (metanull/inventory-app#1721).
+Part of the M1 npmjs-publishing epic (museumwithnofrontiers/inventory-app#1721).
 
 ### Changed
 
@@ -41,13 +41,13 @@ Part of the M1 npmjs-publishing epic (metanull/inventory-app#1721).
   renaming PR's tarball under both the new and the pre-rename name in the
   downstream site matrix — without it, every site (still importing
   `@metanull/viewer-i18n`) would silently build against the last published
-  version instead of this PR's code (metanull/viewer-workflows#17).
+  version instead of this PR's code (museumwithnofrontiers/viewer-workflows#17).
 
 ## 3.0.1
 
 Version 3.0.0 was published from commit ee037cf by mistake and carries none of these removals. This release is the first version to contain them.
 
-Part of epic metanull/inventory-app#1692, wave J (metanull/inventory-app#1698), step 90. Follows waves A–I, which introduce shared entries (timeline, partner, etc.) to replace the product-specific duplicates in gallery and exhibition namespaces.
+Part of epic museumwithnofrontiers/inventory-app#1692, wave J (museumwithnofrontiers/inventory-app#1698), step 90. Follows waves A–I, which introduce shared entries (timeline, partner, etc.) to replace the product-specific duplicates in gallery and exhibition namespaces.
 
 ### Removed
 
@@ -106,27 +106,27 @@ Part of epic metanull/inventory-app#1692, wave J (metanull/inventory-app#1698), 
 - **exhibition.timeline.selectCountry → timeline.form.selectCountry**
 - **exhibition.timeline.to → timeline.form.to**
 
-All sites have been updated to read the shared entries in timeline, partner, catalogue, record, and core namespaces. These product-specific duplicates are no longer read by any site as of this release. The seven sites pin this major version in wave K (metanull/inventory-app#1702).
+All sites have been updated to read the shared entries in timeline, partner, catalogue, record, and core namespaces. These product-specific duplicates are no longer read by any site as of this release. The seven sites pin this major version in wave K (museumwithnofrontiers/inventory-app#1702).
 
 ## 2.5.0
 
-Part of epic metanull/inventory-app#1692, wave K (metanull/inventory-app#1702), walkthrough step 94 (metanull/viewer-i18n#25).
+Part of epic museumwithnofrontiers/inventory-app#1692, wave K (museumwithnofrontiers/inventory-app#1702), walkthrough step 94 (museumwithnofrontiers/viewer-i18n#25).
 
 - **record.source.label** ("Source"), **record.source.termsOfUse** ("Terms of use"), **record.source.rightsHolder** ("Rights holder"): neutral entries for the source credit on a record's page, shared across all website kinds. Additive.
-- **core.footer.legalNotice** ("Important Legal Notice"): the shared legal-notice label for websites without product-specific footers (the standalone sites). Copied from `gallery.footer.legalNotice` and `exhibition.footer.legalNotice` for each language; the two product entries stay until wave J's removal story (metanull/viewer-i18n#21). Additive.
+- **core.footer.legalNotice** ("Important Legal Notice"): the shared legal-notice label for websites without product-specific footers (the standalone sites). Copied from `gallery.footer.legalNotice` and `exhibition.footer.legalNotice` for each language; the two product entries stay until wave J's removal story (museumwithnofrontiers/viewer-i18n#21). Additive.
 
 ## 2.4.0
 
-Part of epic metanull/inventory-app#1692, wave I partner adoptions (metanull/inventory-app#1697), story metanull/inventory-app#1703 (metanull/viewer-i18n#26).
+Part of epic museumwithnofrontiers/inventory-app#1692, wave I partner adoptions (museumwithnofrontiers/inventory-app#1697), story museumwithnofrontiers/inventory-app#1703 (museumwithnofrontiers/viewer-i18n#26).
 
-- **partner.map.openInOpenStreetMap** ("Open in OpenStreetMap"): the neutral entry for the partner map's link, shared across all website kinds. The two product entries (gallery.action.openInOpenStreetMap, xhibition.action.openInOpenStreetMap) stay until every site reads the shared one (removal last, metanull/viewer-layout#67).
+- **partner.map.openInOpenStreetMap** ("Open in OpenStreetMap"): the neutral entry for the partner map's link, shared across all website kinds. The two product entries (gallery.action.openInOpenStreetMap, xhibition.action.openInOpenStreetMap) stay until every site reads the shared one (removal last, museumwithnofrontiers/viewer-layout#67).
 
 # Changelog
 
 ## 2.3.0
 
-Wave G of the shared-pages epic (metanull/inventory-app#1692/#1695), walkthrough
-step 30 (metanull/viewer-i18n#19): two new sections, `timeline` and `partner`,
+Wave G of the shared-pages epic (museumwithnofrontiers/inventory-app#1692/#1695), walkthrough
+step 30 (museumwithnofrontiers/viewer-i18n#19): two new sections, `timeline` and `partner`,
 in every bundle. Decision D6: neutral wording — "in this site", never
 "Gallery" or "Exhibition" — so the one text serves a gallery, an exhibition
 and a standalone site; product wording stays only in `gallery` and
@@ -187,7 +187,7 @@ and a standalone site; product wording stays only in `gallery` and
   English, as 2.2.0 did for `exhibition`; none of these was ever translated
   by MWNF for any site that reads it.
 
-Walkthrough step 31 (metanull/viewer-i18n#20): the search vocabulary the
+Walkthrough step 31 (museumwithnofrontiers/viewer-i18n#20): the search vocabulary the
 three standalone sites triplicated, the DXA theme pages' wording, and the
 glossary/dynasty popout labels the item sheet needs. Additive.
 
@@ -248,8 +248,8 @@ glossary/dynasty popout labels the item sheet needs. Additive.
 
 ## 2.2.0
 
-Wave 0 of the shared-pages epic (metanull/inventory-app#1692/#1693), walkthrough
-step 11 (metanull/viewer-i18n#18): the `exhibition` namespace joins the
+Wave 0 of the shared-pages epic (museumwithnofrontiers/inventory-app#1692/#1693), walkthrough
+step 11 (museumwithnofrontiers/viewer-i18n#18): the `exhibition` namespace joins the
 `standalone` bundle.
 
 - islamicart, baroqueart and sharinghistory each carried nine
@@ -297,14 +297,14 @@ step 11 (metanull/viewer-i18n#18): the `exhibition` namespace joins the
   The four websites' text checks caught it on the first bump. Additive.
 ## 2.0.0
 
-Wave E of the shared-pages epic (metanull/inventory-app#1691), the last
+Wave E of the shared-pages epic (museumwithnofrontiers/inventory-app#1691), the last
 step (#13): the `gallery` and `exhibition` entries that `catalogue`,
 `sheet`, `record` and `core` replaced in 1.7.0 are removed. **Breaking**
 for any website still asking for one — it would render as its own name.
 Every website's `main` was moved onto the shared entries before this
-release (the seven wave D adoptions, then metanull/carpets#26,
-metanull/amulets#24, metanull/water-in-islam#26 and
-metanull/the-use-of-colours-in-art#24 for the last handful), and this
+release (the seven wave D adoptions, then museumwithnofrontiers/carpets#26,
+museumwithnofrontiers/amulets#24, museumwithnofrontiers/water-in-islam#26 and
+museumwithnofrontiers/the-use-of-colours-in-art#24 for the last handful), and this
 release's downstream check built and tested all seven against it.
 
 The rule: an entry goes when a shared one says the same thing — the era
@@ -407,7 +407,7 @@ repository so the rule is readable.
 
 ## 1.7.0
 
-Wave A of the shared-pages epic (metanull/inventory-app#1691): the vocabulary
+Wave A of the shared-pages epic (museumwithnofrontiers/inventory-app#1691): the vocabulary
 the list pages and the record page of every website share, in every language
 any website offers.
 
