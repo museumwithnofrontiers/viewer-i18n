@@ -102,6 +102,7 @@ preferred over the generic one.
 | `sheet.field.workingNumber` | 4:db_workingnumber | ar cs de el es fr it pt tr |
 | `sheet.field.workshop` | 58:objWorkshop | ar de es fr it pt tr |
 | `gallery.*` (ar es fr) | the rows listed above for the same labels, plus 3:footer1, 3:footer2, 3:cookie_policy, 3:legal_notice_title, 3:about, 3:home_artistic_intro, 4:my_collection, 18:overallDatabase, 18:searchRelatedDatabase, 4:db_partner, 3:timeline_header, 3:hcr_all_country, 4:item_relatedobjects, 3:gn_related_context, 4:see_database, 3:gn_see_gallery, 4:viewobjects, 4:pm_partner_profile, 3:read_more, 3:map, 4:logo | ar es fr |
+| `gallery.footer.aboutMwnf`, `gallery.footer.contact`, `gallery.footer.cookies`, `gallery.nav.artisticIntroduction`, `gallery.nav.timeline`, `gallery.section.timeline` | 3:footer1, 3:footer2, 3:cookie_policy, 3:home_artistic_intro, 3:timeline_header | de |
 
 Everything not listed — the Czech, Greek, Swedish and Turkish of most
 entries, every `catalogue.results.*` sentence, the `record.*` chrome that the
