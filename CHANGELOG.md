@@ -1,3 +1,25 @@
+## 4.1.0 (2026-09-22)
+
+Part of museumwithnofrontiers/inventory-app#1742 (M5 — Site waves), story
+museumwithnofrontiers/inventory-app#1944.
+
+### Added
+
+German (`de`) added to the `gallery` kind: `languages.gallery` in
+`namespaces.json` now lists `ar`, `de`, `en`, `es`, `fr`. `gallery/de.json`
+provides all 62 `gallery.*` entries. The `historical-cars` site (M5)
+declares German for its gallery bundle; without this, `viewer-i18n-check`'s
+app-mode completeness check fails that build with the shared `gallery`
+texts lacking their German entries.
+
+6 of the 62 entries reuse legacy `mwnf3.translation` German rows
+(`gallery.footer.aboutMwnf`, `gallery.footer.contact`,
+`gallery.footer.cookies`, `gallery.nav.artisticIntroduction`,
+`gallery.nav.timeline`, `gallery.section.timeline` — see `sources.md`); the
+remaining 56 were translated new, in the same formal (`Sie`-form),
+museum-register German already used across the `standalone` kind's `de`
+files.
+
 ## 4.0.0 (2026-09-21)
 
 Part of epic museumwithnofrontiers/inventory-app#1727, cleanup wave (museumwithnofrontiers/inventory-app#1859).

@@ -7,7 +7,7 @@
   },
   "languages": {
     "standalone": ["ar", "cs", "de", "el", "en", "es", "fr", "it", "pt", "se", "tr"],
-    "gallery": ["ar", "en", "es", "fr"],
+    "gallery": ["ar", "de", "en", "es", "fr"],
     "exhibition": ["en"]
   }
 }
