@@ -9,6 +9,7 @@
   "core.action.read": "Ler",
   "core.action.reset": "Repor",
   "core.action.search": "Pesquisar",
+  "core.action.show": "Mostrar",
   "core.action.viewDetails": "Ver detalhes",
   "core.detail.notFound": "Este registo não existe.",
   "core.footer.legalNotice": "Important Legal Notice",

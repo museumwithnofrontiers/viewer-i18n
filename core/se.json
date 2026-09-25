@@ -9,6 +9,7 @@
   "core.action.read": "Läs",
   "core.action.reset": "Återställ",
   "core.action.search": "Sök",
+  "core.action.show": "Visa",
   "core.action.viewDetails": "Visa detaljer",
   "core.detail.notFound": "Den här posten finns inte.",
   "core.footer.legalNotice": "Important Legal Notice",

@@ -9,6 +9,7 @@
   "core.action.read": "Lesen",
   "core.action.reset": "Zurücksetzen",
   "core.action.search": "Suchen",
+  "core.action.show": "Anzeigen",
   "core.action.viewDetails": "Details anzeigen",
   "core.detail.notFound": "Dieser Datensatz existiert nicht.",
   "core.footer.legalNotice": "Important Legal Notice",

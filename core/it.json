@@ -9,6 +9,7 @@
   "core.action.read": "Leggi",
   "core.action.reset": "Reimposta",
   "core.action.search": "Cerca",
+  "core.action.show": "Mostra",
   "core.action.viewDetails": "Vedi i dettagli",
   "core.detail.notFound": "Questa scheda non esiste.",
   "core.footer.legalNotice": "Important Legal Notice",

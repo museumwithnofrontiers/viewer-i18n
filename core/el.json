@@ -9,6 +9,7 @@
   "core.action.read": "Ανάγνωση",
   "core.action.reset": "Επαναφορά",
   "core.action.search": "Αναζήτηση",
+  "core.action.show": "Εμφάνιση",
   "core.action.viewDetails": "Προβολή λεπτομερειών",
   "core.detail.notFound": "Αυτή η εγγραφή δεν υπάρχει.",
   "core.footer.legalNotice": "Important Legal Notice",

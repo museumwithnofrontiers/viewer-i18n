@@ -9,6 +9,7 @@
   "core.action.read": "اقرأ",
   "core.action.reset": "إعادة ضبط",
   "core.action.search": "ابحث",
+  "core.action.show": "عرض",
   "core.action.viewDetails": "عرض التفاصيل",
   "core.detail.notFound": "هذا السجل غير موجود.",
   "core.footer.legalNotice": "ملاحظة قانونية مهمة",
