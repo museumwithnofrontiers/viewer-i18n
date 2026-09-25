@@ -1,3 +1,26 @@
+## 4.2.0 (2026-09-25)
+
+Part of M10 epic 4 (museumwithnofrontiers/inventory-app#2015), story
+museumwithnofrontiers/inventory-app#2030.
+
+### Added
+
+Three shared partner actions, in every language the `partner` namespace
+promises (`ar cs de el en es fr it pt se tr`):
+
+- `partner.action.readMore` — "Read more"
+- `partner.action.viewObjects` — "View objects"
+- `partner.action.viewMonuments` — "View monuments"
+
+They are the labels of viewer-layout's `PartnerPanel` (the list line and the
+partner page) and replace per-family and per-site copies of the same text:
+`gallery.action.readMore` / `exhibition.action.readMore`,
+`gallery.action.viewObjects` / `gallery.partner.viewObjects` /
+`exhibition.action.viewObjects`, and the three products'
+`*.action.viewObjects` / `*.action.viewMonuments`. The old entries stay until
+nothing reads them (inventory-app#2019). Arabic, German, Spanish and French
+come from the legacy rows and the gallery entries they replace (see
+`sources.md`); the other languages were translated for this dictionary.
 ## 4.1.0 (2026-09-22)
 
 Part of museumwithnofrontiers/inventory-app#1742 (M5 — Site waves), story

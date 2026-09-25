@@ -48,6 +48,9 @@ preferred over the generic one.
 | `core.project.islamicArt` | 3:dia_supporttexthead | ar es fr pt se tr (de/it: the data package's own names) |
 | `core.project.galleries` | 3:gn_galleries | ar |
 | `core.project.sharingHistory` | 4:my_museum_select_sh | ar |
+| `partner.action.readMore` | 3:read_more (ar es fr); ar de es fr as in `gallery.action.readMore`, which it replaces | ar de es fr |
+| `partner.action.viewMonuments` | 4:viewmonument | es fr |
+| `partner.action.viewObjects` | 4:viewobjects (es fr); ar de as in `gallery.action.viewObjects`, which it replaces | ar de es fr |
 | `record.action.addToCollection` | 4:add_to_collection | ar es fr |
 | `record.action.download` | 3:gn_download | ar es fr it pt se tr |
 | `record.action.downloadPdf` | 3:gn_aspdf_img | ar de es fr it pt se tr |
