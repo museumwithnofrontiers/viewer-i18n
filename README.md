@@ -60,11 +60,38 @@ those exact characters, angle brackets and all. Use Markdown.
 | `catalogue/` | the list pages every website has: the filters, the search form, the results and their pages |
 | `sheet/` | the labels of a record's sheet — name, date, dimensions, provenance, who prepared it |
 | `record/` | what surrounds the sheet: back, timeline, related items, credits, citation, the glossary, the dynasties popout |
-| `exhibition/` | the exhibitions (Water in Islam, The Use of Colours in Art, …) |
+| `exhibition/` | the exhibitions (Water in Islam, The Use of Colours in Art, …), and the exhibition sections of the products |
 | `timeline/` | the timeline pages: the country and period form, the results, the errors — worded so the same text serves a gallery, an exhibition or a standalone site |
 | `partner/` | the partner pages: the profile fields, the map, the list and its sorting, "not found" — worded the same way |
 
-`gallery/` and `exhibition/` hold only what a gallery or an exhibition says and no other kind of website does — the sections, the navigation, the partner page's intro, the timeline page's intro, the notices, the themes. What every website says the same way lives once, in `catalogue/`, `sheet/`, `record/`, `timeline/` and `partner/`, so that the seven websites read one vocabulary rather than seven; since 2.0.0 the two family sections carry no copy of it. `timeline/` and `partner/` carry no product name: they say "in this site", never "Gallery" or "Exhibition", so the one text serves every kind of website — the few entries whose wording is a product's own stay in `gallery` and `exhibition`.
+### Which section a text belongs in
+
+A text is written once. Where it goes depends on who says it:
+
+| Who says it | Where it goes |
+| --- | --- |
+| any kind of website, the same way | a shared section: `core/`, `layout/`, `catalogue/`, `sheet/`, `record/`, `timeline/` or `partner/` |
+| only the galleries | `gallery/` |
+| the pages of an exhibition — an exhibition website, or the exhibition section of a product | `exhibition/` |
+| only one website | that website's own `locales/`, under its namespace |
+
+`gallery/` and `exhibition/` are the texts of the DXA family's shared pages
+(`@museumwnf/viewer-layout/dxa`) and of each family's own sections, navigation,
+notices and themes. What a gallery and an exhibition say the same way belongs
+in a shared section, not in both family sections; and a text several websites
+repeat in their own namespaces belongs here, not in each of them.
+`timeline/` and `partner/` carry no product name: they say "in this site",
+never "Gallery" or "Exhibition", so the one text serves every kind of website —
+the few entries whose wording is a product's own stay in `gallery` and
+`exhibition`.
+
+The dictionary does not follow this everywhere yet: some entries still hold
+the same English in `gallery` and `exhibition`, and the three products repeat
+some texts in their own namespaces. Epic 8 of milestone M10
+([inventory-app#2019](https://github.com/museumwithnofrontiers/inventory-app/issues/2019))
+adds the shared entries, moves the websites onto them, then removes the copies.
+The platform's [architecture reference](https://github.com/museumwithnofrontiers/inventory-app/issues/1510) places the texts among
+the other layers.
 
 Entry names are written as `section.group.name` — three parts, so
 `gallery.sheet.inventoryNumber` reads as "in the galleries, on the item sheet,
