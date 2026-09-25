@@ -9,6 +9,7 @@
   "core.action.read": "Read",
   "core.action.reset": "Reset",
   "core.action.search": "Search",
+  "core.action.show": "Show",
   "core.action.viewDetails": "View details",
   "core.detail.notFound": "This record does not exist.",
   "core.footer.legalNotice": "Important Legal Notice",

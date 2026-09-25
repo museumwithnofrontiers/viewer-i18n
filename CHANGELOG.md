@@ -1,3 +1,15 @@
+## 4.4.0 (2026-09-25)
+
+Part of M10 epic 6 (museumwithnofrontiers/inventory-app#2017), story
+museumwithnofrontiers/inventory-app#2054.
+
+### Added
+
+- `core.action.show` — "Show", in every language the `core` namespace
+  promises. viewer-layout's `FeaturedPartners` labels each carousel bullet
+  "Show <partner>" with it, and only two galleries carried it among their own
+  texts, so the others read the entry's name out. Translated for this
+  dictionary.
 ## 4.3.0 (2026-09-25)
 
 Part of M10 epic 6 (museumwithnofrontiers/inventory-app#2017), stories

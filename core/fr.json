@@ -9,6 +9,7 @@
   "core.action.read": "Lire",
   "core.action.reset": "Réinitialiser",
   "core.action.search": "Rechercher",
+  "core.action.show": "Afficher",
   "core.action.viewDetails": "Voir les détails",
   "core.detail.notFound": "Cette fiche n’existe pas.",
   "core.footer.legalNotice": "Avertissement juridique",

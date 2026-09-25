@@ -9,6 +9,7 @@
   "core.action.read": "Oku",
   "core.action.reset": "Sıfırla",
   "core.action.search": "Ara",
+  "core.action.show": "Göster",
   "core.action.viewDetails": "Ayrıntıları gör",
   "core.detail.notFound": "Bu kayıt mevcut değil.",
   "core.footer.legalNotice": "Important Legal Notice",
