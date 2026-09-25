@@ -24,5 +24,6 @@
   "partner.map.onTheMap": "Museum on the map",
   "partner.nav.back": "Back to Partners",
   "partner.nav.homepage": "Go to the Partner’s homepage",
-  "partner.nav.notFound": "Partner not found."
+  "partner.nav.notFound": "Partner not found.",
+  "partner.list.featured": "Featured Partners"
 }

@@ -1,3 +1,26 @@
+## 4.3.0 (2026-09-25)
+
+Part of M10 epic 6 (museumwithnofrontiers/inventory-app#2017), stories
+museumwithnofrontiers/inventory-app#2055 and #2056.
+
+### Added
+
+- `partner.list.featured` — "Featured Partners", in every language the
+  `partner` namespace promises. The default heading of viewer-layout's
+  `FeaturedPartners`, which named `partner.featured`, an entry that never
+  existed. It replaces `gallery.partner.featured`; Arabic, German, Spanish and
+  French come from that entry, the other languages were translated for this
+  dictionary.
+- The exhibition partner-objects texts every exhibition wrote under its own
+  namespace, identical in all six: `exhibition.partner.monumentsInExhibition`
+  ("monument(s) in this Exhibition") and `exhibition.partnerObjects.emptyPartner`,
+  `.emptyInstitution`, `.partnerProfile`, `.institutionProfile`. viewer-layout's
+  `standardRoutes('exhibition')` reads them by default, so a site no longer
+  passes them. Like every `exhibition.*` entry, the other languages carry the
+  English text.
+
+The entries they replace stay until nothing reads them
+(inventory-app#2019).
 ## 4.2.0 (2026-09-25)
 
 Part of M10 epic 4 (museumwithnofrontiers/inventory-app#2015), story
