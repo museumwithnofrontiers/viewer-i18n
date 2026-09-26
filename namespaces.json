@@ -1,7 +1,7 @@
 {
-  "namespaces": ["core", "layout", "catalogue", "sheet", "record", "gallery", "exhibition", "timeline", "partner"],
+  "namespaces": ["core", "layout", "catalogue", "sheet", "record", "gallery", "exhibition", "timeline", "partner", "standalone"],
   "bundles": {
-    "standalone": ["core", "layout", "catalogue", "sheet", "record", "exhibition", "timeline", "partner"],
+    "standalone": ["core", "layout", "catalogue", "sheet", "record", "exhibition", "timeline", "partner", "standalone"],
     "gallery": ["core", "layout", "catalogue", "sheet", "record", "gallery", "timeline", "partner"],
     "exhibition": ["core", "layout", "catalogue", "sheet", "record", "exhibition", "timeline", "partner"]
   },

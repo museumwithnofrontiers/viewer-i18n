@@ -1,3 +1,36 @@
+## 4.5.0 (2026-09-26)
+
+Part of M10 epic 8 (museumwithnofrontiers/inventory-app#2019), stories
+museumwithnofrontiers/inventory-app#2060 and #2061.
+
+### Added
+
+- The shared entries for what a gallery and an exhibition say the same way,
+  in every language their section promises: the menu (`core.nav.about`,
+  `.artisticIntroduction`, `.collection`, `.credits`, `.myCollection`,
+  `.overallDatabase`, `.partners`, `.timeline`), the footer
+  (`core.footer.aboutMwnf`, `.contact`, `.cookies`, `.copyright`, `.credits`),
+  the section titles (`core.section.about`, `.collection`, `.credits`,
+  `.database`, `.partners`, `.timeline`), the item page's related block
+  (`record.related.title`, `.description`, `.linkPending`) and the search links
+  (`catalogue.results.seeDatabaseEntry`, `catalogue.search.overallDatabase`,
+  `.placeholder`, `.relatedDatabase`). Each carries the English of the
+  `gallery.*` entry it replaces, and the languages that entry had; the other
+  languages come from legacy where it had the label (sources.md), or were
+  translated for this dictionary.
+- A `standalone` section, in the products' bundle only: the texts the three
+  products (Islamic Art, Baroque Art, Sharing History) each carried in English
+  in their own namespace — the home page, identity, navigation, exhibition list
+  and partner lists. Legacy's own translation is used where it had one
+  (sources.md); the other languages were translated for this dictionary.
+- `core.nav.inThisSection` — "In this section", the label of a page's
+  strip of sibling or child pages. viewer-layout's `EssayView` names it by
+  default, instead of the exhibitions' `exhibition.theme.inThisTheme`, which
+  the gallery bundle does not carry. Legacy has no such label; translated for
+  this dictionary.
+
+The entries they replace stay until nothing reads them
+(inventory-app#2019).
 ## 4.4.0 (2026-09-25)
 
 Part of M10 epic 6 (museumwithnofrontiers/inventory-app#2017), story

@@ -35,19 +35,42 @@ preferred over the generic one.
 | `catalogue.pagination.first` | 4:IslDyn_PageNav_First | ar es fr |
 | `catalogue.pagination.last` | 4:IslDyn_PageNav_Last | ar es fr |
 | `catalogue.results.objects` | 4:pc_objects | ar es fr it |
+| `catalogue.results.seeDatabaseEntry` | ar de es fr as in `gallery.action.seeDatabaseEntry`, which it replaces | ar de es fr |
 | `catalogue.search.and` | 3:gn_and | ar de es fr it pt tr |
 | `catalogue.search.keyword` | 3:mwnf_dbsearch_keywords | ar es fr |
 | `catalogue.search.newSearch` | 3:gn_newsearch | ar es fr |
 | `catalogue.search.or` | 3:gn_or | ar es fr |
+| `catalogue.search.overallDatabase` | ar de es fr as in `gallery.search.overallDatabase`, which it replaces | ar de es fr |
+| `catalogue.search.placeholder` | ar de es fr as in `gallery.search.placeholder`, which it replaces | ar de es fr |
+| `catalogue.search.relatedDatabase` | ar de es fr as in `gallery.search.relatedDatabase`, which it replaces | ar de es fr |
 | `catalogue.search.submit` | 3:search | ar es fr |
 | `core.action.back` | 3:back | ar de es fr it |
 | `core.action.close` | 3:museum_home_com_close | de es fr it pt tr |
+| `core.footer.aboutMwnf` | 3:footer1 (it pt tr); ar de es fr as in `gallery.footer.aboutMwnf`, which it replaces | ar de es fr it pt tr |
+| `core.footer.contact` | 3:footer2 (fr it pt se tr); ar de es as in `gallery.footer.contact`, which it replaces | ar de es fr it pt se tr |
+| `core.footer.cookies` | 3:cookie_policy (de es fr it pt se tr); ar as in `gallery.footer.cookies`, which it replaces | ar de es fr it pt se tr |
+| `core.footer.copyright` | ar de es fr as in `gallery.footer.copyright`, which it replaces | ar de es fr |
+| `core.footer.credits` | 3:footer4 (tr); ar de es fr as in `gallery.footer.credits`, which it replaces | ar de es fr tr |
+| `core.nav.about` | ar de es fr as in `gallery.nav.about`, which it replaces | ar de es fr |
+| `core.nav.artisticIntroduction` | 3:home_artistic_intro (tr); ar de es fr as in `gallery.nav.artisticIntroduction`, which it replaces | ar de es fr tr |
+| `core.nav.collection` | ar de es fr as in `gallery.nav.collection`, which it replaces | ar de es fr |
+| `core.nav.credits` | 3:footer4 (tr); ar de es fr as in `gallery.nav.credits`, which it replaces | ar de es fr tr |
 | `core.nav.home` | 3:back_to_section | ar es fr pt tr |
+| `core.nav.myCollection` | ar de es fr as in `gallery.nav.myCollection`, which it replaces | ar de es fr |
+| `core.nav.overallDatabase` | ar de es fr as in `gallery.nav.overallDatabase`, which it replaces | ar de es fr |
+| `core.nav.partners` | 6:home_partnermuseums (tr); ar de es fr as in `gallery.nav.partners`, which it replaces | ar de es fr tr |
+| `core.nav.timeline` | ar de es fr as in `gallery.nav.timeline`, which it replaces | ar de es fr |
 | `core.pagination.next` / `previous` | 3:Next / 3:Previous | ar es fr |
 | `core.project.explorePartners` | 3:dia_supporttexthead2 | ar es fr |
 | `core.project.islamicArt` | 3:dia_supporttexthead | ar es fr pt se tr (de/it: the data package's own names) |
 | `core.project.galleries` | 3:gn_galleries | ar |
 | `core.project.sharingHistory` | 4:my_museum_select_sh | ar |
+| `core.section.about` | ar de es fr as in `gallery.section.about`, which it replaces | ar de es fr |
+| `core.section.collection` | ar de es fr as in `gallery.section.collection`, which it replaces | ar de es fr |
+| `core.section.credits` | 3:footer4 (tr); ar de es fr as in `gallery.section.credits`, which it replaces | ar de es fr tr |
+| `core.section.database` | 6:home_database (pt tr); ar de es fr as in `gallery.section.database`, which it replaces | ar de es fr pt tr |
+| `core.section.partners` | ar de es fr as in `gallery.section.partners`, which it replaces | ar de es fr |
+| `core.section.timeline` | ar de es fr as in `gallery.section.timeline`, which it replaces | ar de es fr |
 | `partner.action.readMore` | 3:read_more (ar es fr); ar de es fr as in `gallery.action.readMore`, which it replaces | ar de es fr |
 | `partner.action.viewMonuments` | 4:viewmonument | es fr |
 | `partner.action.viewObjects` | 4:viewobjects (es fr); ar de as in `gallery.action.viewObjects`, which it replaces | ar de es fr |
@@ -64,9 +87,12 @@ preferred over the generic one.
 | `record.glossary.heading` | 4:IslDyn_GlossPopUp_Header | es fr |
 | `record.glossary.instructions` | 4:Glos_Spell_popup_txt1 | ar es fr |
 | `record.media.photograph` | 4:db_photographer | ar de es fr it pt tr |
+| `record.related.description` | ar de es fr as in `gallery.related.description`, which it replaces | ar de es fr |
 | `record.related.exhibitions` | 13:sh_home_exhibitions | de it pt se tr |
+| `record.related.linkPending` | ar de es fr as in `gallery.item.linkPending`, which it replaces | ar de es fr |
 | `record.related.onDisplayIn` | 3:on_display_in | ar es fr |
 | `record.related.timelineForItem` | 4:pc_view_hcr_item | ar es fr |
+| `record.related.title` | ar de es fr as in `gallery.related.title`, which it replaces | ar de es fr |
 | `record.sheet.credits` | 3:footer4 | ar es fr it pt tr |
 | `record.sheet.languages` | 3:languages | ar fr |
 | `sheet.field.alsoKnownAs` | 3:db_alsoknowas | cs de es fr it pt tr |
@@ -105,14 +131,20 @@ preferred over the generic one.
 | `sheet.field.type` | 4:db_notice | ar cs de es fr it pt |
 | `sheet.field.workingNumber` | 4:db_workingnumber | ar cs de el es fr it pt tr |
 | `sheet.field.workshop` | 58:objWorkshop | ar de es fr it pt tr |
+| `standalone.identity.organisation` | 2:home_banner_title (es fr se) | es fr se |
+| `standalone.nav.database` | 6:home_database (pt tr) | pt tr |
+| `standalone.nav.exhibitions` | 6:home_exhibitions (ar) | ar |
+| `standalone.partner.others` | 4:pc_parnter_other (ar) | ar |
 | `gallery.*` (ar es fr) | the rows listed above for the same labels, plus 3:footer1, 3:footer2, 3:cookie_policy, 3:legal_notice_title, 3:about, 3:home_artistic_intro, 4:my_collection, 18:overallDatabase, 18:searchRelatedDatabase, 4:db_partner, 3:timeline_header, 3:hcr_all_country, 4:item_relatedobjects, 3:gn_related_context, 4:see_database, 3:gn_see_gallery, 4:viewobjects, 4:pm_partner_profile, 3:read_more, 3:map, 4:logo | ar es fr |
 | `gallery.footer.aboutMwnf`, `gallery.footer.contact`, `gallery.footer.cookies`, `gallery.nav.artisticIntroduction`, `gallery.nav.timeline`, `gallery.section.timeline` | 3:footer1, 3:footer2, 3:cookie_policy, 3:home_artistic_intro, 3:timeline_header | de |
 
 Everything not listed — the Czech, Greek, Swedish and Turkish of most
 entries, every `catalogue.results.*` sentence, the `record.*` chrome that the
-legacy sites hard-coded in English, and the gallery essays (`about.body`,
+legacy sites hard-coded in English, the gallery essays (`about.body`,
 `collection.intro`, `search.howTo`, `timeline.intro`), which the legacy
-gallery client shipped in English only — was translated for this dictionary.
+gallery client shipped in English only, and the `standalone.*` texts, which
+the three products carried in English only — was translated for this
+dictionary.
 
 `se` is Swedish. The data packages declare it with the legacy code `se`
 rather than the standard `sv`, and viewer-core matches codes as written, so

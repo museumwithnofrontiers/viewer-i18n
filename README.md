@@ -63,6 +63,7 @@ those exact characters, angle brackets and all. Use Markdown.
 | `exhibition/` | the exhibitions (Water in Islam, The Use of Colours in Art, …), and the exhibition sections of the products |
 | `timeline/` | the timeline pages: the country and period form, the results, the errors — worded so the same text serves a gallery, an exhibition or a standalone site |
 | `partner/` | the partner pages: the profile fields, the map, the list and its sorting, "not found" — worded the same way |
+| `standalone/` | the three products (Islamic Art, Baroque Art, Sharing History): their home page, identity, navigation, exhibition list and partner lists |
 
 ### Which section a text belongs in
 
@@ -73,6 +74,7 @@ A text is written once. Where it goes depends on who says it:
 | any kind of website, the same way | a shared section: `core/`, `layout/`, `catalogue/`, `sheet/`, `record/`, `timeline/` or `partner/` |
 | only the galleries | `gallery/` |
 | the pages of an exhibition — an exhibition website, or the exhibition section of a product | `exhibition/` |
+| only the products | `standalone/` |
 | only one website | that website's own `locales/`, under its namespace |
 
 `gallery/` and `exhibition/` are the texts of the DXA family's shared pages
@@ -87,9 +89,10 @@ the few entries whose wording is a product's own stay in `gallery` and
 
 The dictionary does not follow this everywhere yet: some entries still hold
 the same English in `gallery` and `exhibition`, and the three products repeat
-some texts in their own namespaces. Epic 8 of milestone M10
+some texts in their own namespaces. The shared entries exist since 4.5.0;
+Epic 8 of milestone M10
 ([inventory-app#2019](https://github.com/museumwithnofrontiers/inventory-app/issues/2019))
-adds the shared entries, moves the websites onto them, then removes the copies.
+moves the websites onto them, then removes the copies.
 The platform's [architecture reference](https://github.com/museumwithnofrontiers/inventory-app/issues/1510) places the texts among
 the other layers.
 
@@ -125,9 +128,9 @@ Each kind of website receives one prebuilt bundle, and nothing else:
 
 | Kind | Bundle | Contains |
 | --- | --- | --- |
-| Products (Islamic Art, Baroque Art, Sharing History) | `@museumwnf/viewer-i18n/standalone` | `core` + `layout` + `catalogue` + `sheet` + `record` + `exhibition` + `timeline` + `partner` |
-| Galleries | `@museumwnf/viewer-i18n/gallery` | the same, with `gallery` in place of `exhibition` |
-| Exhibitions | `@museumwnf/viewer-i18n/exhibition` | the same as Products |
+| Products (Islamic Art, Baroque Art, Sharing History) | `@museumwnf/viewer-i18n/standalone` | `core` + `layout` + `catalogue` + `sheet` + `record` + `exhibition` + `timeline` + `partner` + `standalone` |
+| Galleries | `@museumwnf/viewer-i18n/gallery` | `core` + `layout` + `catalogue` + `sheet` + `record` + `gallery` + `timeline` + `partner` |
+| Exhibitions | `@museumwnf/viewer-i18n/exhibition` | the same as Products, without `standalone` |
 
 ```js
 import { catalogues } from '@museumwnf/viewer-i18n/gallery'
