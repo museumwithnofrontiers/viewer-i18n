@@ -71,6 +71,8 @@ preferred over the generic one.
 | `core.section.database` | 6:home_database (pt tr); ar de es fr as in `gallery.section.database`, which it replaced | ar de es fr pt tr |
 | `core.section.partners` | ar de es fr as in `gallery.section.partners`, which it replaced | ar de es fr |
 | `core.section.timeline` | ar de es fr as in `gallery.section.timeline`, which it replaced | ar de es fr |
+| `layout.banner.detailFrom` | ar de es fr as in `gallery.banner.detailFrom`, which it replaces | ar de es fr |
+| `partner.action.partnerProfile` | ar de es fr as in `gallery.action.partnerProfile`, which it replaces | ar de es fr |
 | `partner.action.readMore` | 3:read_more (ar es fr); ar de es fr as in `gallery.action.readMore`, which it replaced | ar de es fr |
 | `partner.action.viewMonuments` | 4:viewmonument | es fr |
 | `partner.action.viewObjects` | 4:viewobjects (es fr); ar de as in `gallery.action.viewObjects`, which it replaced | ar de es fr |

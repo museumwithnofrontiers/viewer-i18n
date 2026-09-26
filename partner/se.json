@@ -1,4 +1,5 @@
 {
+  "partner.action.partnerProfile": "Partnerprofil",
   "partner.action.readMore": "Läs mer",
   "partner.action.viewMonuments": "Visa monument",
   "partner.action.viewObjects": "Visa föremål",
@@ -13,6 +14,7 @@
   "partner.item.explorePartnerNote": "Detta föremål har lagts till i databasen inom projektet Explore Islamic Art Collections. Informationen finns på:",
   "partner.item.objectsInSite": "föremål på denna webbplats",
   "partner.list.associated": "Associerade partner",
+  "partner.list.featured": "Utvalda partner",
   "partner.list.institutions": "Partnerinstitutioner",
   "partner.list.museums": "Partnermuseer",
   "partner.list.partnersFound": "Hittade partner",
@@ -22,6 +24,5 @@
   "partner.map.mapOf": "Karta över",
   "partner.map.openInOpenStreetMap": "Öppna i OpenStreetMap",
   "partner.nav.back": "Tillbaka till partner",
-  "partner.nav.homepage": "Gå till partnerns webbplats",
-  "partner.list.featured": "Utvalda partner"
+  "partner.nav.homepage": "Gå till partnerns webbplats"
 }

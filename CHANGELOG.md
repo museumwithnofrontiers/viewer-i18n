@@ -1,3 +1,20 @@
+## 5.1.0 (2026-09-26)
+
+Part of M10 epic 8 (museumwithnofrontiers/inventory-app#2019), story
+museumwithnofrontiers/inventory-app#2062.
+
+### Added
+
+- `partner.action.partnerProfile` — "Partner Profile", the link from a
+  partner's objects to its profile, and `layout.banner.detailFrom` — "Detail
+  from", the banner's caption before the item's name. The last two texts a
+  gallery and an exhibition said the same way under different names
+  (`gallery.action.partnerProfile` / `exhibition.partnerObjects.partnerProfile`,
+  `gallery.banner.detailFrom` / `exhibition.media.detailFrom`), in every
+  language their section promises: Arabic, German, Spanish and French are the
+  gallery entries', the rest were translated for this dictionary.
+
+The entries they replace stay until nothing reads them (the next major).
 ## 5.0.0 (2026-09-26)
 
 Part of M10 epic 8 (museumwithnofrontiers/inventory-app#2019), story

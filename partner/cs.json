@@ -1,4 +1,5 @@
 {
+  "partner.action.partnerProfile": "Profil partnera",
   "partner.action.readMore": "Číst dále",
   "partner.action.viewMonuments": "Zobrazit památky",
   "partner.action.viewObjects": "Zobrazit předměty",
@@ -13,6 +14,7 @@
   "partner.item.explorePartnerNote": "Tento předmět byl do databáze přidán v rámci projektu Explore Islamic Art Collections. Informace jsou k dispozici v jazycích:",
   "partner.item.objectsInSite": "předmět(y) na tomto webu",
   "partner.list.associated": "Přidružení partneři",
+  "partner.list.featured": "Vybraní partneři",
   "partner.list.institutions": "Partnerské instituce",
   "partner.list.museums": "Partnerská muzea",
   "partner.list.partnersFound": "Nalezení partneři",
@@ -22,6 +24,5 @@
   "partner.map.mapOf": "Mapa:",
   "partner.map.openInOpenStreetMap": "Otevřít v OpenStreetMap",
   "partner.nav.back": "Zpět na partnery",
-  "partner.nav.homepage": "Přejít na domovskou stránku partnera",
-  "partner.list.featured": "Vybraní partneři"
+  "partner.nav.homepage": "Přejít na domovskou stránku partnera"
 }
