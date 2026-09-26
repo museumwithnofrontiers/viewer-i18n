@@ -1,3 +1,20 @@
+## 4.6.0 (2026-09-26)
+
+Part of M10 epic 8 (museumwithnofrontiers/inventory-app#2019), story
+museumwithnofrontiers/inventory-app#2063.
+
+### Changed
+
+- The `partner` section in every language it promises. Most of its entries
+  carried the English text in Czech, German, Greek, Italian, Portuguese,
+  Swedish and Turkish, and eight of them (the list headings, "Partners
+  found", "Back to Partners", "Partner not found.", the museum/institution
+  badge) in every language. The German of `partner.item.explorePartnerNote`
+  is `gallery.item.explorePartnerNote`'s; `partner.list.museums`,
+  `.institutions`, `partner.info.typeMuseum`, `.phone` and `.addresses` take
+  legacy's own translation where it had the label (sources.md); the rest were
+  translated for this dictionary. Where the English word is the language's own
+  ("Fax", "Logo", German "Museum", French "Contact"), the entry keeps it.
 ## 4.5.0 (2026-09-26)
 
 Part of M10 epic 8 (museumwithnofrontiers/inventory-app#2019), stories
