@@ -1,3 +1,86 @@
+## 5.0.0 (2026-09-26)
+
+Part of M10 epic 8 (museumwithnofrontiers/inventory-app#2019), story
+museumwithnofrontiers/inventory-app#2064. **Breaking:** 114 entries are
+removed. No package, template or website reads any of them, and no website
+overloads one; package-ci builds and tests all 46 websites against this
+release.
+
+### Removed
+
+- The `gallery.*` and `exhibition.*` entries that said what a shared entry
+  says, the case-only variants (`timeline.form.startDate` "Start Date" beside
+  `catalogue.facet.startDate` "Start date", and the like) and
+  `exhibition.theme.previous`/`.next`. Each has a replacement, below; the
+  shared entries carry their translations (sources.md).
+- The entries nothing read: `catalogue.facet.selectDynasty`,
+  `catalogue.facet.selectInstitution`, `catalogue.search.keyword`,
+  `core.action.add`, `exhibition.action.here`, `exhibition.action.seeMore`,
+  `exhibition.chapter.next`, `exhibition.chapter.previous`,
+  `exhibition.error.notFoundBody`, `exhibition.error.notFoundTitle`,
+  `exhibition.nav.islamicDynasties`, `exhibition.partner.fax`,
+  `exhibition.partner.noObjects`, `exhibition.partner.objectsInExhibition`,
+  `exhibition.partner.phone`, `exhibition.results.date`,
+  `exhibition.results.noSearchResults`, `exhibition.section.error`,
+  `exhibition.sponsors.footerFour`, `exhibition.sponsors.footerOne`,
+  `exhibition.sponsors.footerThree`, `exhibition.sponsors.footerTwo`,
+  `exhibition.theme.collapseAll`, `exhibition.theme.expandAll`,
+  `exhibition.theme.filterBySubtheme`, `exhibition.theme.seeGalleryFor`,
+  `exhibition.theme.selectSubtheme`, `gallery.action.here`,
+  `gallery.error.notFoundBody`, `gallery.error.notFoundTitle`,
+  `gallery.nav.islamicDynasties`, `gallery.partner.fax`,
+  `gallery.partner.objectsInGallery`, `gallery.partner.phone`,
+  `gallery.related.items`, `gallery.related.objects`, `gallery.results.date`,
+  `gallery.results.noSearchResults`, `partner.map.onTheMap`,
+  `partner.nav.notFound`, `record.action.returnHome`, `record.sheet.notFound`,
+  `sheet.field.shortDescription`, `timeline.form.none`,
+  `timeline.form.searchIntro`, `timeline.form.yearSuffix`,
+  `timeline.results.countryDescription`.
+
+### Migration
+
+A website that names a removed entry — in its code, or as an overload in its
+own `locales/` — names its replacement instead:
+
+| Removed | Replacement |
+|---|---|
+| `timeline.form.endDate` | `catalogue.facet.endDate` |
+| `timeline.form.selectCountry` | `catalogue.facet.selectCountry` |
+| `timeline.form.startDate` | `catalogue.facet.startDate` |
+| `exhibition.action.seeDatabaseEntry`, `gallery.action.seeDatabaseEntry` | `catalogue.results.seeDatabaseEntry` |
+| `exhibition.search.overallDatabase`, `gallery.search.overallDatabase` | `catalogue.search.overallDatabase` |
+| `exhibition.search.placeholder`, `gallery.search.placeholder` | `catalogue.search.placeholder` |
+| `exhibition.search.relatedDatabase`, `gallery.search.relatedDatabase` | `catalogue.search.relatedDatabase` |
+| `exhibition.footer.aboutMwnf`, `gallery.footer.aboutMwnf` | `core.footer.aboutMwnf` |
+| `exhibition.footer.contact`, `gallery.footer.contact` | `core.footer.contact` |
+| `exhibition.footer.cookies`, `gallery.footer.cookies` | `core.footer.cookies` |
+| `exhibition.footer.copyright`, `gallery.footer.copyright` | `core.footer.copyright` |
+| `exhibition.footer.credits`, `gallery.footer.credits` | `core.footer.credits` |
+| `exhibition.footer.legalNotice`, `gallery.footer.legalNotice` | `core.footer.legalNotice` |
+| `exhibition.nav.about`, `gallery.nav.about` | `core.nav.about` |
+| `exhibition.nav.artisticIntroduction`, `gallery.nav.artisticIntroduction` | `core.nav.artisticIntroduction` |
+| `exhibition.nav.collection`, `gallery.nav.collection` | `core.nav.collection` |
+| `exhibition.nav.credits`, `gallery.nav.credits` | `core.nav.credits` |
+| `exhibition.nav.myCollection`, `gallery.nav.myCollection` | `core.nav.myCollection` |
+| `exhibition.nav.overallDatabase`, `gallery.nav.overallDatabase` | `core.nav.overallDatabase` |
+| `exhibition.nav.partners`, `gallery.nav.partners` | `core.nav.partners` |
+| `exhibition.nav.timeline`, `gallery.nav.timeline` | `core.nav.timeline` |
+| `exhibition.theme.next` | `core.pagination.next` |
+| `exhibition.theme.previous` | `core.pagination.previous` |
+| `exhibition.section.about`, `gallery.section.about` | `core.section.about` |
+| `exhibition.section.collection`, `gallery.section.collection` | `core.section.collection` |
+| `exhibition.section.credits`, `gallery.section.credits` | `core.section.credits` |
+| `exhibition.section.database`, `gallery.section.database` | `core.section.database` |
+| `exhibition.section.partners`, `gallery.section.partners` | `core.section.partners` |
+| `exhibition.section.timeline`, `gallery.section.timeline` | `core.section.timeline` |
+| `exhibition.action.readMore`, `gallery.action.readMore` | `partner.action.readMore` |
+| `exhibition.action.viewObjects`, `gallery.action.viewObjects`, `gallery.partner.viewObjects` | `partner.action.viewObjects` |
+| `exhibition.item.explorePartnerNote`, `gallery.item.explorePartnerNote` | `partner.item.explorePartnerNote` |
+| `gallery.partner.featured` | `partner.list.featured` |
+| `exhibition.related.description`, `gallery.related.description` | `record.related.description` |
+| `exhibition.item.linkPending`, `gallery.item.linkPending` | `record.related.linkPending` |
+| `exhibition.related.title`, `gallery.related.title` | `record.related.title` |
+
 ## 4.6.1 (2026-09-26)
 
 Part of M10 epic 8 (museumwithnofrontiers/inventory-app#2019), story
