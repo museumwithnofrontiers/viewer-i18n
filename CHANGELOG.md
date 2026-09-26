@@ -1,3 +1,22 @@
+## 6.0.0 (2026-09-26)
+
+Part of M10 epic 8 (museumwithnofrontiers/inventory-app#2019), story
+museumwithnofrontiers/inventory-app#2062. **Breaking:** four entries are
+removed, the last gallery/exhibition pairs that said the same thing under two
+names. Nothing reads them since viewer-layout 3.2.1, and no website overloads
+one; package-ci builds and tests all 46 websites against this release.
+
+### Removed
+
+| Removed | Replacement |
+|---|---|
+| `gallery.action.partnerProfile`, `exhibition.partnerObjects.partnerProfile` | `partner.action.partnerProfile` |
+| `gallery.banner.detailFrom`, `exhibition.media.detailFrom` | `layout.banner.detailFrom` |
+
+### Migration
+
+A website that names one of them — in its code, or as an overload in its own
+`locales/` — names its replacement instead.
 ## 5.1.0 (2026-09-26)
 
 Part of M10 epic 8 (museumwithnofrontiers/inventory-app#2019), story
