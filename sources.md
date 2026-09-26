@@ -51,6 +51,7 @@ preferred over the generic one.
 | `core.footer.cookies` | 3:cookie_policy (de es fr it pt se tr); ar as in `gallery.footer.cookies`, which it replaces | ar de es fr it pt se tr |
 | `core.footer.copyright` | ar de es fr as in `gallery.footer.copyright`, which it replaces | ar de es fr |
 | `core.footer.credits` | 3:footer4 (tr); ar de es fr as in `gallery.footer.credits`, which it replaces | ar de es fr tr |
+| `core.footer.legalNotice` | de as in `gallery.footer.legalNotice`, which it replaces | de |
 | `core.nav.about` | ar de es fr as in `gallery.nav.about`, which it replaces | ar de es fr |
 | `core.nav.artisticIntroduction` | 3:home_artistic_intro (tr); ar de es fr as in `gallery.nav.artisticIntroduction`, which it replaces | ar de es fr tr |
 | `core.nav.collection` | ar de es fr as in `gallery.nav.collection`, which it replaces | ar de es fr |

@@ -1,3 +1,16 @@
+## 4.6.1 (2026-09-26)
+
+Part of M10 epic 8 (museumwithnofrontiers/inventory-app#2019), story
+museumwithnofrontiers/inventory-app#2062.
+
+### Fixed
+
+- `core.footer.legalNotice` carried the English text in Czech, German, Greek,
+  Italian, Portuguese, Swedish and Turkish. The German is
+  `gallery.footer.legalNotice`'s, which the DXA family layer reads until it
+  moves onto this entry; the others were translated for this dictionary
+  (legacy's 3:legal_notice_title has only Arabic, Spanish and French, which
+  the entry already carries).
 ## 4.6.0 (2026-09-26)
 
 Part of M10 epic 8 (museumwithnofrontiers/inventory-app#2019), story
