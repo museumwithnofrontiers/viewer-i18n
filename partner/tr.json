@@ -1,4 +1,5 @@
 {
+  "partner.action.partnerProfile": "Ortak profili",
   "partner.action.readMore": "Devamını oku",
   "partner.action.viewMonuments": "Anıtları görüntüle",
   "partner.action.viewObjects": "Eserleri görüntüle",
@@ -13,6 +14,7 @@
   "partner.item.explorePartnerNote": "Bu eser, Explore Islamic Art Collections projesi kapsamında veritabanına eklenmiştir. Bilgiler şu dillerde mevcuttur:",
   "partner.item.objectsInSite": "eser bu sitede",
   "partner.list.associated": "İlişkili ortaklar",
+  "partner.list.featured": "Öne çıkan ortaklar",
   "partner.list.institutions": "Ortak kurumlar",
   "partner.list.museums": "Ortak müzeler",
   "partner.list.partnersFound": "Bulunan ortaklar",
@@ -22,6 +24,5 @@
   "partner.map.mapOf": "Harita:",
   "partner.map.openInOpenStreetMap": "OpenStreetMap’te aç",
   "partner.nav.back": "Ortaklara dön",
-  "partner.nav.homepage": "Ortağın ana sayfasına git",
-  "partner.list.featured": "Öne çıkan ortaklar"
+  "partner.nav.homepage": "Ortağın ana sayfasına git"
 }

@@ -1,4 +1,5 @@
 {
+  "partner.action.partnerProfile": "Προφίλ εταίρου",
   "partner.action.readMore": "Διαβάστε περισσότερα",
   "partner.action.viewMonuments": "Προβολή μνημείων",
   "partner.action.viewObjects": "Προβολή αντικειμένων",
@@ -13,6 +14,7 @@
   "partner.item.explorePartnerNote": "Αυτό το αντικείμενο προστέθηκε στη βάση δεδομένων στο πλαίσιο του έργου Explore Islamic Art Collections. Οι πληροφορίες είναι διαθέσιμες στα:",
   "partner.item.objectsInSite": "αντικείμενο(-α) σε αυτόν τον ιστότοπο",
   "partner.list.associated": "Συνδεδεμένοι εταίροι",
+  "partner.list.featured": "Επιλεγμένοι συνεργάτες",
   "partner.list.institutions": "Συνεργαζόμενοι φορείς",
   "partner.list.museums": "Συνεργαζόμενα μουσεία",
   "partner.list.partnersFound": "Εταίροι που βρέθηκαν",
@@ -22,6 +24,5 @@
   "partner.map.mapOf": "Χάρτης:",
   "partner.map.openInOpenStreetMap": "Άνοιγμα στο OpenStreetMap",
   "partner.nav.back": "Επιστροφή στους εταίρους",
-  "partner.nav.homepage": "Μετάβαση στην αρχική σελίδα του εταίρου",
-  "partner.list.featured": "Επιλεγμένοι συνεργάτες"
+  "partner.nav.homepage": "Μετάβαση στην αρχική σελίδα του εταίρου"
 }

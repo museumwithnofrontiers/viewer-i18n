@@ -1,4 +1,5 @@
 {
+  "partner.action.partnerProfile": "Presentación del Socio",
   "partner.action.readMore": "Seguir leyendo",
   "partner.action.viewMonuments": "Ver monumentos",
   "partner.action.viewObjects": "Ver objetos",
@@ -13,6 +14,7 @@
   "partner.item.explorePartnerNote": "Este objeto se añadió a la base de datos en el marco del proyecto Explore Islamic Art Collections. La información está disponible en:",
   "partner.item.objectsInSite": "objeto(s) en este sitio",
   "partner.list.associated": "Socios asociados",
+  "partner.list.featured": "Socios destacados",
   "partner.list.institutions": "Instituciones asociadas",
   "partner.list.museums": "Museos Socios",
   "partner.list.partnersFound": "Socios encontrados",
@@ -22,6 +24,5 @@
   "partner.map.mapOf": "Mapa de",
   "partner.map.openInOpenStreetMap": "Abrir en OpenStreetMap",
   "partner.nav.back": "Volver a Socios",
-  "partner.nav.homepage": "Ir a la página de inicio del Socio",
-  "partner.list.featured": "Socios destacados"
+  "partner.nav.homepage": "Ir a la página de inicio del Socio"
 }

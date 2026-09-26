@@ -1,4 +1,5 @@
 {
+  "partner.action.partnerProfile": "وصف الشريك",
   "partner.action.readMore": "طالع المزيد",
   "partner.action.viewMonuments": "عرض المعالم",
   "partner.action.viewObjects": "عرض القطع",
@@ -13,6 +14,7 @@
   "partner.item.explorePartnerNote": "أُضيفت هذه القطعة إلى قاعدة البيانات ضمن مشروع «اكتشف مجموعات الفن الإسلامي». المعلومات متاحة باللغات:",
   "partner.item.objectsInSite": "قطعة (قطع) في هذا الموقع",
   "partner.list.associated": "الشركاء المنتسبون",
+  "partner.list.featured": "شركاء مختارون",
   "partner.list.institutions": "المؤسسات الشريكة",
   "partner.list.museums": "المتاحف الشركاء",
   "partner.list.partnersFound": "الشركاء الذين عُثر عليهم",
@@ -22,6 +24,5 @@
   "partner.map.mapOf": "خريطة",
   "partner.map.openInOpenStreetMap": "فتح في OpenStreetMap",
   "partner.nav.back": "العودة إلى الشركاء",
-  "partner.nav.homepage": "الانتقال إلى الصفحة الرئيسية للشريك",
-  "partner.list.featured": "شركاء مختارون"
+  "partner.nav.homepage": "الانتقال إلى الصفحة الرئيسية للشريك"
 }
