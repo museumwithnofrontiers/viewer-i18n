@@ -87,12 +87,12 @@ never "Gallery" or "Exhibition", so the one text serves every kind of website â€
 the few entries whose wording is a product's own stay in `gallery` and
 `exhibition`.
 
-The dictionary does not follow this everywhere yet: some entries still hold
-the same English in `gallery` and `exhibition`, and the three products repeat
-some texts in their own namespaces. The shared entries exist since 4.5.0;
-Epic 8 of milestone M10
-([inventory-app#2019](https://github.com/museumwithnofrontiers/inventory-app/issues/2019))
-moves the websites onto them, then removes the copies.
+Since 5.0.0 the dictionary follows this throughout: what a gallery and an
+exhibition said the same way, and what the three products each repeated, is
+one shared entry, and every entry is read by a package, a template or a
+website (Epic 8 of milestone M10,
+[inventory-app#2019](https://github.com/museumwithnofrontiers/inventory-app/issues/2019)).
+An entry nothing reads any more is removed, in a major release.
 The platform's [architecture reference](https://github.com/museumwithnofrontiers/inventory-app/issues/1510) places the texts among
 the other layers.
 
