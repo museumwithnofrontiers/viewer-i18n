@@ -74,7 +74,13 @@ preferred over the generic one.
 | `partner.action.readMore` | 3:read_more (ar es fr); ar de es fr as in `gallery.action.readMore`, which it replaces | ar de es fr |
 | `partner.action.viewMonuments` | 4:viewmonument | es fr |
 | `partner.action.viewObjects` | 4:viewobjects (es fr); ar de as in `gallery.action.viewObjects`, which it replaces | ar de es fr |
+| `partner.info.addresses` | 8:address, with the plural mark the other languages carry | de it pt tr |
+| `partner.info.phone` | 2:event_phone | fr |
+| `partner.info.typeMuseum` | 3:menu2 (fr `MUSÉE`, in the page's case) | es fr |
+| `partner.item.explorePartnerNote` | de as in `gallery.item.explorePartnerNote`, which it replaces | de |
 | `partner.list.featured` | ar de es fr as in `gallery.partner.featured`, which it replaces | ar de es fr |
+| `partner.list.institutions` | 4:museum_home_pm | es fr |
+| `partner.list.museums` | 3:pm_home_partner_museums | ar es fr |
 | `record.action.addToCollection` | 4:add_to_collection | ar es fr |
 | `record.action.download` | 3:gn_download | ar es fr it pt se tr |
 | `record.action.downloadPdf` | 3:gn_aspdf_img | ar de es fr it pt se tr |
