@@ -51,6 +51,7 @@ preferred over the generic one.
 | `core.footer.copyright` | ar de es fr as in `gallery.footer.copyright`, which it replaced | ar de es fr |
 | `core.footer.credits` | 3:footer4 (tr); ar de es fr as in `gallery.footer.credits`, which it replaced | ar de es fr tr |
 | `core.footer.legalNotice` | de as in `gallery.footer.legalNotice`, which it replaced | de |
+| `core.footer.languagePolicy` | 3:language_policy | ar en es fr |
 | `core.nav.about` | ar de es fr as in `gallery.nav.about`, which it replaced | ar de es fr |
 | `core.nav.artisticIntroduction` | 3:home_artistic_intro (tr); ar de es fr as in `gallery.nav.artisticIntroduction`, which it replaced | ar de es fr tr |
 | `core.nav.collection` | ar de es fr as in `gallery.nav.collection`, which it replaced | ar de es fr |
@@ -103,6 +104,31 @@ preferred over the generic one.
 | `record.related.title` | ar de es fr as in `gallery.related.title`, which it replaced | ar de es fr |
 | `record.sheet.credits` | 3:footer4 | ar es fr it pt tr |
 | `record.sheet.languages` | 3:languages | ar fr |
+| `sheet.dxa.alsoKnownAs` | 59:objAKA | ar cs de en es fr it pt tr |
+| `sheet.dxa.artists` | 59:objArtist | ar de en es fr |
+| `sheet.dxa.bibliography` | 59:objBibliography | ar cs de en es fr it pt tr |
+| `sheet.dxa.binding` | 59:objBinding | ar en es fr |
+| `sheet.dxa.catalogueLink` | 59:objDigitLink | ar en es |
+| `sheet.dxa.copyrightInformation` | 59:objCopyrightInfo | ar cs en fr it pt |
+| `sheet.dxa.currentOwner` | 59:objCurrentOwner | ar de en es fr it |
+| `sheet.dxa.datationMethod` | 59:objDatationMethod | ar cs de en es fr it pt tr |
+| `sheet.dxa.date` | 59:objDate | ar cs de en es fr it pt tr |
+| `sheet.dxa.description` | 59:objDescription | ar cs de el en es it pt tr |
+| `sheet.dxa.dimensions` | 59:objDimensions | ar cs de el en es it pt tr |
+| `sheet.dxa.holdingMuseum` | 59:objHoldingMuseum | ar cs de el en es fr it pt tr |
+| `sheet.dxa.inventoryNumber` | 59:objInventoryNumber | ar cs de el en es fr it pt tr |
+| `sheet.dxa.location` | 59:objLocation | ar cs de el en es fr it pt tr |
+| `sheet.dxa.materials` | 59:objMaterials | ar cs de el en es fr it pt tr |
+| `sheet.dxa.name` | 59:objName | ar cs de el en es fr it pt tr |
+| `sheet.dxa.obtentionMethod` | 59:objObtentionMethod | ar cs de en es fr it pt tr |
+| `sheet.dxa.originalOwner` | 59:objOriginalOwner | en |
+| `sheet.dxa.periodDynasty` | 59:objDynasty | ar de el en es fr it pt tr |
+| `sheet.dxa.placeOfProduction` | 59:objPlaceOfProduction | ar de en es fr it |
+| `sheet.dxa.provenance` | 59:objProvenance | ar cs de el en es it pt tr |
+| `sheet.dxa.provenanceMethod` | 59:objProvenanceMethod | ar de en es fr it pt tr |
+| `sheet.dxa.scribe` | 59:objScribe | ar en es |
+| `sheet.dxa.type` | 59:objType | ar cs de en es it pt |
+| `sheet.dxa.workshop` | 59:objWorkshop | ar de en es fr it pt tr |
 | `sheet.field.alsoKnownAs` | 3:db_alsoknowas | cs de es fr it pt tr |
 | `sheet.field.artists` | 4:db_artists | de it pt |
 | `sheet.field.bibliography` | 4:db_bibliography | ar cs de es fr it pt tr |
@@ -138,12 +164,20 @@ preferred over the generic one.
 | `sheet.field.type` | 4:db_notice | ar cs de es fr it pt |
 | `sheet.field.workingNumber` | 4:db_workingnumber | ar cs de el es fr it pt tr |
 | `sheet.field.workshop` | 58:objWorkshop | ar de es fr it pt tr |
+| `standalone.footer.legalNotice` | 3:footer3 | ar de en es fr it pt se tr |
 | `standalone.identity.organisation` | 2:home_banner_title (es fr se) | es fr se |
 | `standalone.nav.database` | 6:home_database (pt tr) | pt tr |
 | `standalone.nav.exhibitions` | 6:home_exhibitions (ar) | ar |
 | `standalone.partner.others` | 4:pc_parnter_other (ar) | ar |
 | `gallery.*` (ar es fr) | the rows listed above for the same labels, plus 3:footer1, 3:footer2, 3:cookie_policy, 3:legal_notice_title, 3:about, 3:home_artistic_intro, 4:my_collection, 18:overallDatabase, 18:searchRelatedDatabase, 4:db_partner, 3:timeline_header, 3:hcr_all_country, 4:item_relatedobjects, 3:gn_related_context, 4:see_database, 3:gn_see_gallery, 4:viewobjects, 4:pm_partner_profile, 3:read_more, 3:map, 4:logo | ar es fr |
 | `gallery.footer.aboutMwnf`, `gallery.footer.contact`, `gallery.footer.cookies`, `gallery.nav.artisticIntroduction`, `gallery.nav.timeline`, `gallery.section.timeline` | 3:footer1, 3:footer2, 3:cookie_policy, 3:home_artistic_intro, 3:timeline_header | de |
+| `gallery.home.logosLabel` | 59:iyog22_home_label, which legacy had in English only and Glass showed in every language: the English is kept in ar de es fr | en |
+
+The `sheet.dxa.*` entries are the DXA family's own wording of the sheet's
+labels: legacy's galleries and exhibitions both read group 59, "Galleries
+common", not the products' group 4 behind `sheet.field.*`. Where group 59
+has no real translation, the entry takes the `sheet.field.*` text of that
+language.
 
 The `gallery.*` rows trace the translations the shared entries carried
 over. Those gallery entries were removed in 5.0.0, when nothing read them
