@@ -5,6 +5,7 @@
   "gallery.action.visitGalleries": "Visit MWNF Galleries",
   "gallery.banner.discoverGalleries": "Discover MWNF Galleries",
   "gallery.collection.intro": "As a first approach, this might be the best choice to start exploring this Gallery’s database. A range of filters allows you to choose what you want to see.\n\nFor research, you can use the **Search\\*** bar, located on the top right of the page. If you are interested in learning about contributions from a specific institution, the [**Partner**](#/partners) section would be the best place to start. On the [**Timeline**](#/timeline) you will find countries’ historical context information, while [**My Collection**](https://www.museumwnf.org/mycollection/index.php) lets you add any item from this project to your personal collection.\n\n\\* Please be aware that the Search tool covers only the artefacts in this Gallery. If you wish to carry out a search in the overall MWNF Database, please click [here](https://www.museumwnf.org/database_searchform.php) or go to the above-mentioned projects to search their databases. [How to search](#/how-to-search).",
+  "gallery.home.logosLabel": "Set up on the occasion of",
   "gallery.nav.allGalleries": "All MWNF Galleries",
   "gallery.notice.databaseReplaced": "The Database tool has been replaced with the Search bar in the header. Please enter your search term(s) into the bar to search this Gallery’s database.",
   "gallery.notice.tip": "Tip:",

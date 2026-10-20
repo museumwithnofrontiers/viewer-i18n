@@ -1,3 +1,27 @@
+## 6.1.0 (2026-10-20)
+
+Story museumwithnofrontiers/inventory-app#2233 (legacy parity). Additive:
+every existing entry keeps its text.
+
+### Added
+
+- **`sheet.dxa.*`**, 25 entries: the item sheet's labels in the DXA family's
+  own wording, legacy's group 59 ("Galleries common"), which its galleries
+  and exhibitions both read — "Name of Object", "Holding Museum", "How
+  Object was obtained", "Link to catalogue/digitisation in Holding
+  Institution's database"… `sheet.field.*` stays the products' wording
+  (group 4). viewer-layout 3.4.0 reads `sheet.dxa.<name>` for a field
+  labelled `sheet.field.<name>` when the dictionary has it, so the two
+  releases can land in either order. The colon legacy put after each label
+  is the page's (viewer-layout draws it), not the text's.
+- `gallery.home.logosLabel` — "Set up on the occasion of", the heading of
+  Glass's home logo strip (legacy 59:iyog22_home_label, English only).
+- `core.footer.languagePolicy` — "Language Policy", the products' footer
+  link (legacy 3:language_policy for ar en es fr, translated for the rest).
+- `standalone.footer.legalNotice` — "Legal Notice", the products' footer
+  wording (legacy 3:footer3). `core.footer.legalNotice` stays "Important
+  Legal Notice", what the galleries and exhibitions print.
+
 ## 6.0.0 (2026-09-26)
 
 Part of M10 epic 8 (museumwithnofrontiers/inventory-app#2019), story

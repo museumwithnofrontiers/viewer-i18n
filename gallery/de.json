@@ -5,6 +5,7 @@
   "gallery.action.visitGalleries": "MWNF-Galerien besuchen",
   "gallery.banner.discoverGalleries": "Entdecken Sie die MWNF-Galerien",
   "gallery.collection.intro": "Als erster Ansatz ist dies vielleicht die beste Wahl, um die Datenbank dieser Galerie zu erkunden. Eine Reihe von Filtern ermöglicht es Ihnen, auszuwählen, was Sie sehen möchten.\n\nFür die Recherche können Sie die Leiste **Suche\\*** oben rechts auf der Seite verwenden. Wenn Sie sich für die Beiträge einer bestimmten Institution interessieren, ist der Bereich [**Partner**](#/partners) der beste Ausgangspunkt. In der [**Zeitleiste**](#/timeline) finden Sie Informationen zum historischen Kontext der Länder, während [**Meine Sammlung**](https://www.museumwnf.org/mycollection/index.php) es Ihnen ermöglicht, ein beliebiges Objekt dieses Projekts zu Ihrer persönlichen Sammlung hinzuzufügen.\n\n\\* Bitte beachten Sie, dass das Suchwerkzeug nur die Objekte dieser Galerie erfasst. Wenn Sie in der gesamten MWNF-Datenbank suchen möchten, klicken Sie bitte [hier](https://www.museumwnf.org/database_searchform.php) oder besuchen Sie die oben genannten Projekte, um deren Datenbanken zu durchsuchen. [Wie man sucht](#/how-to-search).",
+  "gallery.home.logosLabel": "Set up on the occasion of",
   "gallery.nav.allGalleries": "Alle MWNF-Galerien",
   "gallery.notice.databaseReplaced": "Das Datenbank-Werkzeug wurde durch die Suchleiste in der Kopfzeile ersetzt. Bitte geben Sie Ihre Suchbegriff(e) in die Leiste ein, um die Datenbank dieser Galerie zu durchsuchen.",
   "gallery.notice.tip": "Tipp:",
