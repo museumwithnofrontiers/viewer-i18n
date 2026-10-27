@@ -195,3 +195,24 @@ dictionary.
 rather than the standard `sv`, and viewer-core matches codes as written, so
 the file is named after what the packages say. If the exporters ever move to
 `sv`, rename the six files in the same release.
+
+## The mini-sites' words (`minisite.*`)
+
+Every `minisite.*` entry is a legacy word, in every language legacy has it,
+as Discover Islamic Art's virtual exhibition pages read it: groups 2 and 3
+with the exhibitions' own group 6, the highest group winning (`getTerm()` in
+exhibitions/ISL/libs). They were extracted by the inventory's
+`scripts/site-i18n` (`npm run extract:standalone -- islamicart-exhibitions --namespace minisite`)
+and renamed into this namespace, nothing translated new.
+
+| Entries | Legacy words |
+|---|---|
+| `minisite.identity.windowTitle` | ve_isl_windowstitle |
+| `minisite.header.*` | back_to_home, back_exhibitions_list, back_to_section, Back_to_diaHome |
+| `minisite.home.*` | exh_introduction, exhibition_partners_produced |
+| `minisite.nav.*` | exh_back_entrance, Previous page, Next page |
+| `minisite.intro.enlargeMap` | enlargethemap |
+| `minisite.item.*` | showzoom, showdetail, moreinfo_item |
+| `minisite.download.*` | gn_download, gn_aspdf_img, gn_asword_txt |
+| `minisite.menu.*` | PermanentCollection, home_database, home_exhibitions, home_artistic_intro, timeline_header, home_partnermuseums, my_museum |
+| `minisite.footer.*` | footer1, footer2, footer3, footer4, cookie_policy, footer5 |

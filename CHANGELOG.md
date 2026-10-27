@@ -1,3 +1,20 @@
+## 6.2.0 (2026-10-27)
+
+The mini-sites (legacy's virtual exhibitions, each a website of its own).
+Additive: every existing entry keeps its text.
+
+### Added
+
+- **minisite.***, 30 entries: the words of Discover Islamic Art's virtual
+  exhibition pages (exhibitions/ISL/generic_*.php) — the header's links, the
+  home menu's Introduction and the curators' line, the way back, on and
+  through, the item panel's tooltips and its link to the sheet, the download
+  block, the menu over the footer and the footer — in the nine languages
+  legacy's exhibitions offered (ar de en es fr it pt se tr), legacy's words
+  (groups 2, 3 and 6) as they were. Read by viewer-layout's ./minisite.
+- **The minisite bundle** (@museumwnf/viewer-i18n/minisite): core +
+  layout + ecord + minisite, for websites of class minisite, in those
+  nine languages.
 ## 6.1.0 (2026-10-20)
 
 Story museumwithnofrontiers/inventory-app#2233 (legacy parity). Additive:
