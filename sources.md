@@ -202,7 +202,7 @@ Every `minisite.*` entry is a legacy word, in every language legacy has it,
 as Discover Islamic Art's virtual exhibition pages read it: groups 2 and 3
 with the exhibitions' own group 6, the highest group winning (`getTerm()` in
 exhibitions/ISL/libs). They were extracted by the inventory's
-`scripts/site-i18n` (`npm run extract:standalone -- islamicart-the-umayyads`)
+`scripts/site-i18n` (`npm run extract:standalone -- islamicart-exhibitions --namespace minisite`)
 and renamed into this namespace, nothing translated new.
 
 | Entries | Legacy words |
