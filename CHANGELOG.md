@@ -1,3 +1,20 @@
+## 6.3.0 (2026-10-28)
+
+Baroque Art's mini-sites (inventory-app#2390). Additive: every existing entry
+keeps its text.
+
+### Added
+
+- **minisiteBaroque.***, 33 entries: the words of Discover Baroque Art's
+  virtual exhibition pages (exhibitions/BAR/generic_*.php), a set of their own
+  — Baroque Art is a product of its own, so its mini-sites never read Discover
+  Islamic Art's `minisite.*` — named as `minisite.*`'s entries, with the home
+  band's cooperation, partner-institutions and design lines and the footer's
+  language policy, and no Artistic Introduction. English only, as the
+  exhibitions were; legacy's words (groups 2, 3 and 6) as they were.
+- **The minisiteBaroque bundle** (@museumwnf/viewer-i18n/minisiteBaroque):
+  core + layout + record + minisiteBaroque, for websites of class
+  minisiteBaroque, in English.
 ## 6.2.0 (2026-10-27)
 
 The mini-sites (legacy's virtual exhibitions, each a website of its own).
