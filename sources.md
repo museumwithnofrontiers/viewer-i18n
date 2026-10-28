@@ -216,3 +216,27 @@ and renamed into this namespace, nothing translated new.
 | `minisite.download.*` | gn_download, gn_aspdf_img, gn_asword_txt |
 | `minisite.menu.*` | PermanentCollection, home_database, home_exhibitions, home_artistic_intro, timeline_header, home_partnermuseums, my_museum |
 | `minisite.footer.*` | footer1, footer2, footer3, footer4, cookie_policy, footer5 |
+
+## Baroque Art's mini-sites' words (`minisiteBaroque.*`)
+
+Discover Baroque Art's virtual exhibition pages (exhibitions/BAR/generic_*.php)
+are built like Discover Islamic Art's, but Baroque Art is a product of its own,
+so its mini-sites read a set of their own, complete even where a word is also
+ISL's. Every `minisiteBaroque.*` entry is a legacy word, as those pages read it:
+groups 2 and 3 with the exhibitions' own group 6, the highest group winning.
+English only: the Baroque Art exhibitions offered no other language
+(exhibitions/BAR/libs/config.inc.php, `$LNGLIST`). They were extracted by the
+inventory's `scripts/site-i18n` (`npm run extract:standalone -- baroqueart-exhibitions --namespace minisiteBaroque`),
+nothing translated new.
+
+| Entries | Legacy words |
+|---|---|
+| `minisiteBaroque.identity.windowTitle` | ve_bar_windowstitle |
+| `minisiteBaroque.header.*` | back_to_home, back_exhibitions_list, back_to_section, Back_to_dbaHome |
+| `minisiteBaroque.home.*` | exh_introduction, exhibition_curated_baroqueart, exhibition_curated_baroqueart_cooperation, exhibition_curated_baroqueart_partner, exhibition_curated_baroqueart_design |
+| `minisiteBaroque.nav.*` | exh_back_entrance, Previous page, Next page |
+| `minisiteBaroque.intro.enlargeMap` | enlargethemap |
+| `minisiteBaroque.item.*` | showzoom, showdetail, moreinfo_item |
+| `minisiteBaroque.download.*` | gn_download, gn_aspdf_img, gn_asword_txt |
+| `minisiteBaroque.menu.*` | PermanentCollection, home_database, home_exhibitions, timeline_header, home_partnermuseums, my_museum |
+| `minisiteBaroque.footer.*` | footer1, footer2, footer3, footer4, language_policy, cookie_policy, footer5 |

@@ -131,7 +131,8 @@ Each kind of website receives one prebuilt bundle, and nothing else:
 | Products (Islamic Art, Baroque Art, Sharing History) | `@museumwnf/viewer-i18n/standalone` | `core` + `layout` + `catalogue` + `sheet` + `record` + `exhibition` + `timeline` + `partner` + `standalone` |
 | Galleries | `@museumwnf/viewer-i18n/gallery` | `core` + `layout` + `catalogue` + `sheet` + `record` + `gallery` + `timeline` + `partner` |
 | Exhibitions | `@museumwnf/viewer-i18n/exhibition` | the same as Products, without `standalone` |
-| Mini-sites (legacy's virtual exhibitions, one website each) | `@museumwnf/viewer-i18n/minisite` | `core` + `layout` + `record` + `minisite` |
+| Discover Islamic Art's mini-sites (legacy's virtual exhibitions, one website each) | `@museumwnf/viewer-i18n/minisite` | `core` + `layout` + `record` + `minisite` |
+| Baroque Art's mini-sites | `@museumwnf/viewer-i18n/minisiteBaroque` | `core` + `layout` + `record` + `minisiteBaroque` |
 
 ```js
 import { catalogues } from '@museumwnf/viewer-i18n/gallery'
@@ -149,7 +150,7 @@ It says which bundle it receives, and what its own entries are called, in its
 "viewerI18n": { "class": "gallery", "namespace": "carpets" }
 ```
 
-`class` is one of `standalone`, `gallery`, `exhibition`, `minisite`. `namespace` is one
+`class` is one of `standalone`, `gallery`, `exhibition`, `minisite`, `minisiteBaroque`. `namespace` is one
 lowercase word, no hyphens (`carpets`, `waterInIslam`) — it cannot be one of
 the shared section names, and it is the prefix the website's own entries carry.
 The checks below read this to know what a file may contain, so they refuse to
