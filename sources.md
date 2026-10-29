@@ -269,6 +269,7 @@ nothing translated new.
 | `minisiteSharingHistory.band.*` | sh_ex_curated_by_text, sh_coverimage, sh_support |
 | `minisiteSharingHistory.nav.*` | sh_exh_back_entrance, sh_all_exh, sh_previous_page, sh_next_page |
 | `minisiteSharingHistory.page.*` | sh_more_about, sh_in_exh |
+| `minisiteSharingHistory.reading.*` | close |
 | `minisiteSharingHistory.item.*` | showzoom, sh_ex_more_info, sh_related_images |
 | `minisiteSharingHistory.download.*` | sh_download, sh_aspdf, sh_asword |
 | `minisiteSharingHistory.menu.*` | sh_menu_introduction, home_exhibitions, sh_exhibition_tool_tip, sh_home_pc, sh_pc_tool_tip, home_database, sh_db_tool_tip, sh_menu_timeline, sh_menu_timeline_tool_tip, sh_menu_hb, sh_home_partners, sh_partners_tool_tip, my_museum, sh_mymuseum_tool_tip |

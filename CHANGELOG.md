@@ -5,7 +5,7 @@ entry keeps its text.
 
 ### Added
 
-- **minisiteSharingHistory.***, 63 entries: the words of Sharing History's
+- **minisiteSharingHistory.***, 64 entries: the words of Sharing History's
   virtual exhibition pages (exhibitions/AWE/) and the Sharing History frame
   around them — a family of its own, so its mini-sites never read Discover
   Islamic Art's or Baroque Art's sets. English only, as the exhibitions were;
