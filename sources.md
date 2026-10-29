@@ -245,3 +245,33 @@ Italian pages printed the word's key, `[language_policy]`.
 | `minisiteBaroque.download.*` | gn_download, gn_aspdf_img, gn_asword_txt |
 | `minisiteBaroque.menu.*` | PermanentCollection, home_database, home_exhibitions, timeline_header, home_partnermuseums, my_museum |
 | `minisiteBaroque.footer.*` | footer1, footer2, footer3, footer4, language_policy, cookie_policy, footer5 |
+
+## Sharing History's mini-sites' words (`minisiteSharingHistory.*`)
+
+Sharing History's virtual exhibitions are a family of their own: one set of
+pages (exhibitions/AWE/) inside the Sharing History site's frame, not Discover
+Islamic Art's or Baroque Art's generic pages. Every `minisiteSharingHistory.*`
+entry is a legacy word, as those pages read it: the exhibitions' groups 13 and
+2, with group 3 for the frame's shared words. Two are written into their pages
+rather than read from the dictionary: the headings of the curators' window
+(exhibitions/AWE/credits.php) and of the cover image's (coverImage.php).
+English only: the exhibitions offered no other language
+(exhibitions/AWE/libs/config.inc.php, `$LNGLIST`). They were extracted by the
+inventory's `scripts/site-i18n` (`npm run extract:standalone -- sharinghistory-exhibitions --namespace minisiteSharingHistory`),
+nothing translated new.
+
+| Entries | Legacy words |
+|---|---|
+| `minisiteSharingHistory.identity.windowTitle` | sh_exh_windowstitle |
+| `minisiteSharingHistory.header.*` | sh_home_heading1, sh_home_heading2, sh_menu_introduction, sh_menu_introd_tool_tip, sh_about_project, sh_about_hb, back_to_section, sh_back_to_Home, portal_link, sh_back_portal, sh_decrease_size, sh_revert_size, sh_increase_size |
+| `minisiteSharingHistory.home.*` | sh_ex_exabout_introduction, sh_ex_theabout_introduction |
+| `minisiteSharingHistory.related.*` | sh_related_context, sh_timeline_pc, sh_timeline_thematic_timeline, sh_ex_all_item_theme, sh_ex_all_item_theme_tooltip, sh_ex_further_reading, sh_ex_further_reading_tooltip, sh_ex_see_also, sh_ex_see_also_tooltip |
+| `minisiteSharingHistory.band.*` | sh_ex_curated_by_text, sh_coverimage, sh_support |
+| `minisiteSharingHistory.nav.*` | sh_exh_back_entrance, sh_all_exh, sh_previous_page, sh_next_page |
+| `minisiteSharingHistory.page.*` | sh_more_about, sh_in_exh |
+| `minisiteSharingHistory.reading.*` | close |
+| `minisiteSharingHistory.item.*` | showzoom, sh_ex_more_info, sh_related_images |
+| `minisiteSharingHistory.download.*` | sh_download, sh_aspdf, sh_asword |
+| `minisiteSharingHistory.menu.*` | sh_menu_introduction, home_exhibitions, sh_exhibition_tool_tip, sh_home_pc, sh_pc_tool_tip, home_database, sh_db_tool_tip, sh_menu_timeline, sh_menu_timeline_tool_tip, sh_menu_hb, sh_home_partners, sh_partners_tool_tip, my_museum, sh_mymuseum_tool_tip |
+| `minisiteSharingHistory.footer.*` | footer1, footer2, footer3, footer4, language_policy, cookie_policy, footer5 |
+| `minisiteSharingHistory.windows.*` | the headings written into credits.php and coverImage.php |

@@ -1,3 +1,21 @@
+## 6.4.0 (2026-10-29)
+
+Sharing History's mini-sites (inventory-app#2393). Additive: every existing
+entry keeps its text.
+
+### Added
+
+- **minisiteSharingHistory.***, 64 entries: the words of Sharing History's
+  virtual exhibition pages (exhibitions/AWE/) and the Sharing History frame
+  around them — a family of its own, so its mini-sites never read Discover
+  Islamic Art's or Baroque Art's sets. English only, as the exhibitions were;
+  legacy's words (groups 13, 2 and 3) as they were, and the two window
+  headings legacy wrote into its pages.
+- **The minisiteSharingHistory bundle**
+  (@museumwnf/viewer-i18n/minisiteSharingHistory): core + layout + record +
+  minisiteSharingHistory, for websites of class minisiteSharingHistory, in
+  English.
+
 ## 6.3.1 (2026-10-29)
 
 ### Fixed
