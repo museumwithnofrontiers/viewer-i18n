@@ -1,3 +1,13 @@
+## 6.3.1 (2026-10-29)
+
+### Fixed
+
+- **`minisiteBaroque` in Italian**, the language Reformation and
+  Counter-Reformation offered besides English (reformation/libs/config.inc.php):
+  the legacy words in Italian, extracted like the English. Legacy has no Italian
+  for `language_policy` (its pages printed `[language_policy]`): that entry
+  keeps the English.
+
 ## 6.3.0 (2026-10-28)
 
 Baroque Art's mini-sites (inventory-app#2390). Additive: every existing entry

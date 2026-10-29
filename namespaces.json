@@ -12,6 +12,6 @@
     "gallery": ["ar", "de", "en", "es", "fr"],
     "exhibition": ["en"],
     "minisite": ["ar", "de", "en", "es", "fr", "it", "pt", "se", "tr"],
-    "minisiteBaroque": ["en"]
+    "minisiteBaroque": ["en", "it"]
   }
 }

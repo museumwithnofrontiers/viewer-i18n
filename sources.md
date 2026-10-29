@@ -224,10 +224,15 @@ are built like Discover Islamic Art's, but Baroque Art is a product of its own,
 so its mini-sites read a set of their own, complete even where a word is also
 ISL's. Every `minisiteBaroque.*` entry is a legacy word, as those pages read it:
 groups 2 and 3 with the exhibitions' own group 6, the highest group winning.
-English only: the Baroque Art exhibitions offered no other language
-(exhibitions/BAR/libs/config.inc.php, `$LNGLIST`). They were extracted by the
+In English, which every Baroque Art exhibition offered
+(exhibitions/BAR/libs/config.inc.php, `$LNGLIST`), and Italian, which
+Reformation and Counter-Reformation added (reformation/libs/config.inc.php).
+They were extracted by the
 inventory's `scripts/site-i18n` (`npm run extract:standalone -- baroqueart-exhibitions --namespace minisiteBaroque`),
-nothing translated new.
+nothing translated new. Legacy has no Italian for `language_policy`: its
+Italian pages printed the word's key, `[language_policy]`.
+`minisiteBaroque.footer.languagePolicy` keeps the English in `it`, as
+`gallery.home.logosLabel` does.
 
 | Entries | Legacy words |
 |---|---|
