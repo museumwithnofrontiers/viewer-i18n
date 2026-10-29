@@ -1,17 +1,19 @@
 {
-  "namespaces": ["core", "layout", "catalogue", "sheet", "record", "gallery", "exhibition", "timeline", "partner", "standalone", "minisite", "minisiteBaroque"],
+  "namespaces": ["core", "layout", "catalogue", "sheet", "record", "gallery", "exhibition", "timeline", "partner", "standalone", "minisite", "minisiteBaroque", "minisiteSharingHistory"],
   "bundles": {
     "standalone": ["core", "layout", "catalogue", "sheet", "record", "exhibition", "timeline", "partner", "standalone"],
     "gallery": ["core", "layout", "catalogue", "sheet", "record", "gallery", "timeline", "partner"],
     "exhibition": ["core", "layout", "catalogue", "sheet", "record", "exhibition", "timeline", "partner"],
     "minisite": ["core", "layout", "record", "minisite"],
-    "minisiteBaroque": ["core", "layout", "record", "minisiteBaroque"]
+    "minisiteBaroque": ["core", "layout", "record", "minisiteBaroque"],
+    "minisiteSharingHistory": ["core", "layout", "record", "minisiteSharingHistory"]
   },
   "languages": {
     "standalone": ["ar", "cs", "de", "el", "en", "es", "fr", "it", "pt", "se", "tr"],
     "gallery": ["ar", "de", "en", "es", "fr"],
     "exhibition": ["en"],
     "minisite": ["ar", "de", "en", "es", "fr", "it", "pt", "se", "tr"],
-    "minisiteBaroque": ["en", "it"]
+    "minisiteBaroque": ["en", "it"],
+    "minisiteSharingHistory": ["en"]
   }
 }
