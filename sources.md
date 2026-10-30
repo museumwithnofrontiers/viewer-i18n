@@ -275,3 +275,23 @@ nothing translated new.
 | `minisiteSharingHistory.menu.*` | sh_menu_introduction, home_exhibitions, sh_exhibition_tool_tip, sh_home_pc, sh_pc_tool_tip, home_database, sh_db_tool_tip, sh_menu_timeline, sh_menu_timeline_tool_tip, sh_menu_hb, sh_home_partners, sh_partners_tool_tip, my_museum, sh_mymuseum_tool_tip |
 | `minisiteSharingHistory.footer.*` | footer1, footer2, footer3, footer4, language_policy, cookie_policy, footer5 |
 | `minisiteSharingHistory.windows.*` | the headings written into credits.php and coverImage.php |
+
+## The Artistic Introduction's words (`minisiteArtIntro.*`)
+
+Discover Islamic Art's Artistic Introduction ran in the frame of its virtual
+exhibitions, but on pages of its own (gai/generic_index.php,
+generic_page.php): a site of its own, with a set of its own. Every
+`minisiteArtIntro.*` entry is a legacy word, as those pages read it: group 6
+(gai/ISL/libs/config.inc.php, `$TRSL_GROUP`), with 2 and 3. The window title
+is written into the pages rather than read from the dictionary, in English in
+every language. Its languages are the ones it offered
+(gai/libs/config.inc.php, `$LNGLIST`). They were extracted by the inventory's
+`scripts/site-i18n` (`npm run extract:standalone -- islamicart-artintro --namespace minisiteArtIntro`),
+nothing translated new.
+
+| Entries | Legacy words |
+|---|---|
+| `minisiteArtIntro.identity.windowTitle` | the title written into generic_index.php and generic_page.php |
+| `minisiteArtIntro.header.*` | portal_link, back_portal_mouseover, back_to_section, Back_to_diaHome |
+| `minisiteArtIntro.item.*` | showzoom, showdetail, moreinfo_item |
+| `minisiteArtIntro.footer.*` | footer1, footer2, footer3, footer4, cookie_policy, footer5 |
