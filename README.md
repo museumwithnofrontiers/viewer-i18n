@@ -134,6 +134,7 @@ Each kind of website receives one prebuilt bundle, and nothing else:
 | Discover Islamic Art's mini-sites (legacy's virtual exhibitions, one website each) | `@museumwnf/viewer-i18n/minisite` | `core` + `layout` + `record` + `minisite` |
 | Baroque Art's mini-sites | `@museumwnf/viewer-i18n/minisiteBaroque` | `core` + `layout` + `record` + `minisiteBaroque` |
 | Sharing History's mini-sites | `@museumwnf/viewer-i18n/minisiteSharingHistory` | `core` + `layout` + `record` + `minisiteSharingHistory` |
+| Discover Islamic Art's Artistic Introduction | `@museumwnf/viewer-i18n/minisiteArtIntro` | `core` + `layout` + `record` + `minisiteArtIntro` |
 
 ```js
 import { catalogues } from '@museumwnf/viewer-i18n/gallery'
@@ -151,7 +152,7 @@ It says which bundle it receives, and what its own entries are called, in its
 "viewerI18n": { "class": "gallery", "namespace": "carpets" }
 ```
 
-`class` is one of `standalone`, `gallery`, `exhibition`, `minisite`, `minisiteBaroque`, `minisiteSharingHistory`. `namespace` is one
+`class` is one of `standalone`, `gallery`, `exhibition`, `minisite`, `minisiteBaroque`, `minisiteSharingHistory`, `minisiteArtIntro`. `namespace` is one
 lowercase word, no hyphens (`carpets`, `waterInIslam`) — it cannot be one of
 the shared section names, and it is the prefix the website's own entries carry.
 The checks below read this to know what a file may contain, so they refuse to

@@ -1,7 +1,7 @@
 {
   "name": "@museumwnf/viewer-i18n",
-  "version": "6.4.0",
-  "description": "Shared static texts for the MWNF website platform: the core, layout, catalogue, sheet, record, gallery, exhibition, timeline, partner, standalone, minisite, minisiteBaroque and minisiteSharingHistory namespaces.",
+  "version": "6.5.0",
+  "description": "Shared static texts for the MWNF website platform: the core, layout, catalogue, sheet, record, gallery, exhibition, timeline, partner, standalone, minisite, minisiteBaroque, minisiteSharingHistory and minisiteArtIntro namespaces.",
   "type": "module",
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
@@ -24,6 +24,7 @@
     "./minisite": "./dist/minisite/index.js",
     "./minisiteBaroque": "./dist/minisiteBaroque/index.js",
     "./minisiteSharingHistory": "./dist/minisiteSharingHistory/index.js",
+    "./minisiteArtIntro": "./dist/minisiteArtIntro/index.js",
     "./namespaces.json": "./namespaces.json",
     "./package.json": "./package.json"
   },

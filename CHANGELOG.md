@@ -1,3 +1,21 @@
+## 6.5.0 (2026-10-30)
+
+Discover Islamic Art's Artistic Introduction, a mini-site of its own
+(inventory-app#2359). Additive: every existing entry keeps its text.
+
+### Added
+
+- **minisiteArtIntro.***: the words of the Artistic Introduction's pages
+  (gai/generic_index.php, generic_page.php), in English, French, Spanish and
+  Arabic, the languages it offered. It runs in the exhibitions' frame but on
+  pages of its own, so it reads a set of its own, never the exhibitions'
+  `minisite` set. Legacy's words (group 6, with 2 and 3) as they were, and
+  the window title its pages wrote into their markup, in English only, as
+  legacy printed it in every language.
+- **The minisiteArtIntro bundle** (@museumwnf/viewer-i18n/minisiteArtIntro):
+  core + layout + record + minisiteArtIntro, for a website of class
+  minisiteArtIntro, in Arabic, English, Spanish and French.
+
 ## 6.4.0 (2026-10-29)
 
 Sharing History's mini-sites (inventory-app#2393). Additive: every existing
