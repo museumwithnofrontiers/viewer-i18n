@@ -37,6 +37,6 @@
     "test": "node --test \"tools/*.test.mjs\" && npm run check && npm run build"
   },
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.5.42"
+    "@vue/compiler-sfc": "^3.5.44"
   }
 }
