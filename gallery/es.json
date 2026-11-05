@@ -5,6 +5,8 @@
   "gallery.action.visitGalleries": "Visitar las Galerías MWNF",
   "gallery.banner.discoverGalleries": "Descubra las Galerías MWNF",
   "gallery.collection.intro": "Como primera aproximación, esta puede ser la mejor opción para empezar a explorar la base de datos de esta Galería. Una serie de filtros le permite elegir lo que quiere ver.\n\nPara investigar, puede usar la barra **Buscar\\***, situada en la parte superior derecha de la página. Si le interesa conocer las aportaciones de una institución concreta, la sección [**Socios**](#/partners) es el mejor punto de partida. En la [**Cronología**](#/timeline) encontrará información sobre el contexto histórico de los países, mientras que [**Mi Colección**](https://www.museumwnf.org/mycollection/index.php) le permite añadir cualquier objeto de este proyecto a su colección personal.\n\n\\* Tenga en cuenta que la herramienta de búsqueda solo cubre los objetos de esta Galería. Si desea buscar en toda la base de datos MWNF, haga clic [aquí](https://www.museumwnf.org/database_searchform.php) o vaya a los proyectos mencionados para consultar sus bases de datos. [Cómo buscar](#/how-to-search).",
+  "gallery.era.ad": "A.D.",
+  "gallery.era.bc": "B.C.",
   "gallery.home.logosLabel": "Set up on the occasion of",
   "gallery.nav.allGalleries": "Todas las Galerías MWNF",
   "gallery.notice.databaseReplaced": "La herramienta Base de datos se ha sustituido por la barra de búsqueda de la cabecera. Introduzca en ella sus términos de búsqueda para consultar la base de datos de esta Galería.",
@@ -12,9 +14,17 @@
   "gallery.partner.noObjects": "Este socio no tiene objetos en esta Galería.",
   "gallery.partner.noObjectsInGallery": "Socio del proyecto — sin objetos en esta Galería",
   "gallery.partners.intro": "Si le interesa conocer la aportación de una institución concreta, esta página puede ser el mejor punto de partida. La lista distingue entre los Socios que han contribuido específicamente a las Galerías MWNF y los Socios representados por material relacionado con las Galerías MWNF aportado a otros proyectos MWNF. Por este motivo, algunos Socios aparecen dos o más veces.",
+  "gallery.partners.statusAffiliate": "Affiliate",
+  "gallery.partners.statusPartner": "Partner",
+  "gallery.results.for": "for",
   "gallery.results.noObjectsInPeriod": "Ningún objeto de esta Galería corresponde a ese país y período.",
   "gallery.results.notInThisGallery": "no está en esta galería",
   "gallery.section.error": "Error",
   "gallery.siblings.otherVirtualMuseums": "Otros museos virtuales",
-  "gallery.timeline.intro": "Aquí encontrará información sobre acontecimientos históricos relacionados con los objetos expuestos.\n\nLa Cronología es un trabajo en curso y se creó inicialmente para tres proyectos solamente: [*Descubrir el Arte Islámico*](https://islamicart.museumwnf.org/), [*Discover Baroque Art*](https://baroqueart.museumwnf.org/) y [*Sharing History*](https://sharinghistory.museumwnf.org/). El objetivo era contextualizar los objetos expuestos, según el enfoque temático propio de cada proyecto. Estos textos fueron recopilados por expertos de cada país participante.\n\nActualmente, esta página permite explorar los acontecimientos añadidos a la Cronología para los proyectos mencionados, en los períodos y para los países participantes correspondientes.\n\nEn las páginas de la base de datos, un enlace «Cronología para este objeto» muestra los acontecimientos disponibles dentro del período de creación del objeto.\n\nHacemos todo lo posible por seguir desarrollando nuestra Cronología. Si desea contribuir, escríbanos a [office@museumwnf.net](mailto:office@museumwnf.net)."
+  "gallery.timeline.alertCountry": "Please select a country.",
+  "gallery.timeline.alertDates": "Please select both a start and an end date.",
+  "gallery.timeline.endDate": "End Date",
+  "gallery.timeline.intro": "Aquí encontrará información sobre acontecimientos históricos relacionados con los objetos expuestos.\n\nLa Cronología es un trabajo en curso y se creó inicialmente para tres proyectos solamente: [*Descubrir el Arte Islámico*](https://islamicart.museumwnf.org/), [*Discover Baroque Art*](https://baroqueart.museumwnf.org/) y [*Sharing History*](https://sharinghistory.museumwnf.org/). El objetivo era contextualizar los objetos expuestos, según el enfoque temático propio de cada proyecto. Estos textos fueron recopilados por expertos de cada país participante.\n\nActualmente, esta página permite explorar los acontecimientos añadidos a la Cronología para los proyectos mencionados, en los períodos y para los países participantes correspondientes.\n\nEn las páginas de la base de datos, un enlace «Cronología para este objeto» muestra los acontecimientos disponibles dentro del período de creación del objeto.\n\nHacemos todo lo posible por seguir desarrollando nuestra Cronología. Si desea contribuir, escríbanos a [editing@museumwnf.net](mailto:editing@museumwnf.net).",
+  "gallery.timeline.selectCountry": "Select a Country",
+  "gallery.timeline.startDate": "Start Date"
 }

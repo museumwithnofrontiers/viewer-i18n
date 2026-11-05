@@ -1,3 +1,35 @@
+## 6.6.0 (2026-11-05)
+
+The galleries' partner badges and Timeline page (inventory-app#2423). No
+entry is removed or renamed.
+
+### Added
+
+- **gallery.partners.statusPartner**, **gallery.partners.statusAffiliate**:
+  "Partner" and "Affiliate", the status that ends each badge of the
+  galleries' partner list. In English in every language, as legacy printed
+  them.
+- **gallery.timeline.selectCountry**, **.startDate**, **.endDate**,
+  **.alertCountry**, **.alertDates**: the Timeline page's form as legacy's
+  (TimelinePage.vue): the lists' first lines and the two alerts its Go
+  raised. In English in every language, as legacy printed them.
+- **gallery.results.for**: "for", before a tile's project on the galleries'
+  hover card ("for *Discover Islamic Art*"), where the shared
+  `catalogue.results.forProject` says "for project". In English in every
+  language, as legacy printed it.
+- **gallery.era.ad**, **gallery.era.bc**: "A.D." and "B.C.", the galleries'
+  era words, where every other site reads `catalogue.era.ad`/`.bc` ("AD",
+  "BC"). Legacy's galleries printed them on every year (timeline and
+  collection lists, item sheet, timeline results); viewer-core 2.16.0's
+  `GALLERY_ERA_WORDS` points the gallery family at them. In English in every
+  language, as legacy printed them.
+
+### Fixed
+
+- **gallery.timeline.intro** gives legacy's address, editing@museumwnf.net,
+  in every language. Every legacy gallery printed it (its
+  `VUE_APP_CONTACT_US_EMAIL`); the entry had office@museumwnf.net.
+
 ## 6.5.0 (2026-10-30)
 
 Discover Islamic Art's Artistic Introduction, a mini-site of its own

@@ -5,6 +5,8 @@
   "gallery.action.visitGalleries": "Visit MWNF Galleries",
   "gallery.banner.discoverGalleries": "Discover MWNF Galleries",
   "gallery.collection.intro": "As a first approach, this might be the best choice to start exploring this Gallery’s database. A range of filters allows you to choose what you want to see.\n\nFor research, you can use the **Search\\*** bar, located on the top right of the page. If you are interested in learning about contributions from a specific institution, the [**Partner**](#/partners) section would be the best place to start. On the [**Timeline**](#/timeline) you will find countries’ historical context information, while [**My Collection**](https://www.museumwnf.org/mycollection/index.php) lets you add any item from this project to your personal collection.\n\n\\* Please be aware that the Search tool covers only the artefacts in this Gallery. If you wish to carry out a search in the overall MWNF Database, please click [here](https://www.museumwnf.org/database_searchform.php) or go to the above-mentioned projects to search their databases. [How to search](#/how-to-search).",
+  "gallery.era.ad": "A.D.",
+  "gallery.era.bc": "B.C.",
   "gallery.home.logosLabel": "Set up on the occasion of",
   "gallery.nav.allGalleries": "All MWNF Galleries",
   "gallery.notice.databaseReplaced": "The Database tool has been replaced with the Search bar in the header. Please enter your search term(s) into the bar to search this Gallery’s database.",
@@ -12,9 +14,17 @@
   "gallery.partner.noObjects": "This partner holds no objects in this Gallery.",
   "gallery.partner.noObjectsInGallery": "Project Partner — no objects in this Gallery",
   "gallery.partners.intro": "If you are interested in learning about the contribution from a specific institution, this page might be the best place to start. The list distinguishes between Partners that have contributed specifically to MWNF Galleries, and Partners that are represented by MWNF Galleries-related material contributed to other MWNF projects. For this reason, some Partners are listed twice or more.",
+  "gallery.partners.statusAffiliate": "Affiliate",
+  "gallery.partners.statusPartner": "Partner",
+  "gallery.results.for": "for",
   "gallery.results.noObjectsInPeriod": "No objects from this Gallery fall in that country and period.",
   "gallery.results.notInThisGallery": "not in this gallery",
   "gallery.section.error": "Error",
   "gallery.siblings.otherVirtualMuseums": "Other Virtual Museums",
-  "gallery.timeline.intro": "Here you will find information about historical events related to the items on display.\n\nThe Timeline is a work-in-progress and was initially set up for three projects only: [*Discover Islamic Art*](https://islamicart.museumwnf.org/), [*Discover Baroque Art*](https://baroqueart.museumwnf.org/), and [*Sharing History*](https://sharinghistory.museumwnf.org/). The purpose was to contextualise the items on display, with the projects’ specific thematic focus. These texts were compiled by experts from each country concerned.\n\nCurrently, this page allows exploration of the events added to the Timeline for the above-mentioned projects, covering the relevant time ranges and participating countries.\n\nOn database pages, a ‘Timeline for this item’ link will display available events within the period of the item’s creation.\n\nWe are doing our best to further develop our Timeline. If you are willing to contribute, please contact us at [office@museumwnf.net](mailto:office@museumwnf.net)."
+  "gallery.timeline.alertCountry": "Please select a country.",
+  "gallery.timeline.alertDates": "Please select both a start and an end date.",
+  "gallery.timeline.endDate": "End Date",
+  "gallery.timeline.intro": "Here you will find information about historical events related to the items on display.\n\nThe Timeline is a work-in-progress and was initially set up for three projects only: [*Discover Islamic Art*](https://islamicart.museumwnf.org/), [*Discover Baroque Art*](https://baroqueart.museumwnf.org/), and [*Sharing History*](https://sharinghistory.museumwnf.org/). The purpose was to contextualise the items on display, with the projects’ specific thematic focus. These texts were compiled by experts from each country concerned.\n\nCurrently, this page allows exploration of the events added to the Timeline for the above-mentioned projects, covering the relevant time ranges and participating countries.\n\nOn database pages, a ‘Timeline for this item’ link will display available events within the period of the item’s creation.\n\nWe are doing our best to further develop our Timeline. If you are willing to contribute, please contact us at [editing@museumwnf.net](mailto:editing@museumwnf.net).",
+  "gallery.timeline.selectCountry": "Select a Country",
+  "gallery.timeline.startDate": "Start Date"
 }
