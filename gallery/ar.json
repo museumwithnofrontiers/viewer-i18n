@@ -23,6 +23,8 @@
   "gallery.results.noObjectsInPeriod": "لا توجد قطع من هذا المعرض تقع في ذلك البلد وتلك الفترة.",
   "gallery.results.notInThisGallery": "ليس في هذا المعرض",
   "gallery.section.error": "خطأ",
+  "gallery.sheet.hideShortDescription": "إخفاء الوصف المختصر",
+  "gallery.sheet.viewShortDescription": "طالع الوصف الموجز",
   "gallery.sheet.workingNumber": "الرقم التشغيلي في \"م ب ح\"",
   "gallery.siblings.otherVirtualMuseums": "متاحف افتراضية أخرى",
   "gallery.timeline.alertCountry": "Please select a country.",

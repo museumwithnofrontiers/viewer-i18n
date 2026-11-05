@@ -23,6 +23,8 @@
   "gallery.results.noObjectsInPeriod": "Keine Objekte dieser Galerie fallen in dieses Land und diesen Zeitraum.",
   "gallery.results.notInThisGallery": "nicht in dieser Galerie",
   "gallery.section.error": "Fehler",
+  "gallery.sheet.hideShortDescription": "Hide Short Description",
+  "gallery.sheet.viewShortDescription": "View Short Description",
   "gallery.sheet.workingNumber": "MWNF Arbeitsnummer",
   "gallery.siblings.otherVirtualMuseums": "Andere virtuelle Museen",
   "gallery.timeline.alertCountry": "Please select a country.",

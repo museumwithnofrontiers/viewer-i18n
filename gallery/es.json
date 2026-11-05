@@ -23,6 +23,8 @@
   "gallery.results.noObjectsInPeriod": "Ningún objeto de esta Galería corresponde a ese país y período.",
   "gallery.results.notInThisGallery": "no está en esta galería",
   "gallery.section.error": "Error",
+  "gallery.sheet.hideShortDescription": "Esconder descripción breve",
+  "gallery.sheet.viewShortDescription": "Ver descripción breve",
   "gallery.sheet.workingNumber": "N.º de trabajo MWNF",
   "gallery.siblings.otherVirtualMuseums": "Otros museos virtuales",
   "gallery.timeline.alertCountry": "Please select a country.",

@@ -75,6 +75,8 @@ preferred over the generic one.
 | `core.section.timeline` | ar de es fr as in `gallery.section.timeline`, which it replaced | ar de es fr |
 | `gallery.related.dynasties` | 59:islamicDynasties | ar es fr |
 | `gallery.related.glossary` | 59:glossary | ar es fr |
+| `gallery.sheet.hideShortDescription` | 59:objShortDesc_hide | ar es fr |
+| `gallery.sheet.viewShortDescription` | 59:objShortDesc_show | ar es fr |
 | `gallery.sheet.workingNumber` | 59:objWorkingNumber | ar de es fr |
 | `layout.banner.detailFrom` | ar de es fr as in `gallery.banner.detailFrom`, which it replaced | ar de es fr |
 | `partner.action.partnerProfile` | ar de es fr as in `gallery.action.partnerProfile`, which it replaced | ar de es fr |
