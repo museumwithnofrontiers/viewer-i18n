@@ -1,3 +1,20 @@
+## 6.7.0 (2026-11-05)
+
+The galleries' item sheet as legacy's (inventory-app#2423). No entry is
+removed or renamed.
+
+### Added
+
+- **gallery.sheet.workingNumber**: "MWNF Working Number", the line under a
+  gallery item's credits (legacy 59:objWorkingNumber, in its languages).
+- **gallery.sheet.viewShortDescription**, **gallery.sheet.hideShortDescription**:
+  "View Short Description" and "Hide Short Description", the gallery sheet's
+  toggle (59:objShortDesc_show, 59:objShortDesc_hide).
+- **gallery.related.glossary**, **gallery.related.dynasties**,
+  **gallery.related.exhibitions**: "Glossary", "Islamic Dynasties / Period"
+  and "Exhibition(s)", the gallery sheet's sidebar (59:glossary,
+  59:islamicDynasties, 59:exhibitions; the last is English in every language,
+  as legacy's was).
 ## 6.6.0 (2026-11-05)
 
 The galleries' partner badges and Timeline page (inventory-app#2423). No
