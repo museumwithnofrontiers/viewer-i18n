@@ -12,6 +12,8 @@
   "gallery.partner.noObjects": "Dieser Partner hat keine Objekte in dieser Galerie.",
   "gallery.partner.noObjectsInGallery": "Projektpartner — keine Objekte in dieser Galerie",
   "gallery.partners.intro": "Wenn Sie sich für den Beitrag einer bestimmten Institution interessieren, ist diese Seite vielleicht der beste Ausgangspunkt. Die Liste unterscheidet zwischen Partnern, die speziell zu den MWNF-Galerien beigetragen haben, und Partnern, die durch Material vertreten sind, das im Zusammenhang mit den MWNF-Galerien zu anderen MWNF-Projekten beigetragen wurde. Aus diesem Grund werden manche Partner zwei- oder mehrfach aufgeführt.",
+  "gallery.partners.statusAffiliate": "Affiliate",
+  "gallery.partners.statusPartner": "Partner",
   "gallery.results.noObjectsInPeriod": "Keine Objekte dieser Galerie fallen in dieses Land und diesen Zeitraum.",
   "gallery.results.notInThisGallery": "nicht in dieser Galerie",
   "gallery.section.error": "Fehler",

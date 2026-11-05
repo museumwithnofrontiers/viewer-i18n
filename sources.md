@@ -183,6 +183,12 @@ The `gallery.*` rows trace the translations the shared entries carried
 over. Those gallery entries were removed in 5.0.0, when nothing read them
 any more; their text lives on in the entry that replaced them.
 
+`gallery.partners.statusPartner` and `gallery.partners.statusAffiliate` are
+the status that ends each badge of the galleries' partner list ("Discover
+Islamic Art Partner", "Sharing History Affiliate"). The legacy gallery client
+wrote both words into its PartnersPage.vue and printed them in English in
+every language, so every language keeps the English.
+
 Everything not listed — the Czech, Greek, Swedish and Turkish of most
 entries, every `catalogue.results.*` sentence, the `record.*` chrome that the
 legacy sites hard-coded in English, the gallery essays (`about.body`,

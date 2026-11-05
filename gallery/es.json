@@ -12,6 +12,8 @@
   "gallery.partner.noObjects": "Este socio no tiene objetos en esta Galería.",
   "gallery.partner.noObjectsInGallery": "Socio del proyecto — sin objetos en esta Galería",
   "gallery.partners.intro": "Si le interesa conocer la aportación de una institución concreta, esta página puede ser el mejor punto de partida. La lista distingue entre los Socios que han contribuido específicamente a las Galerías MWNF y los Socios representados por material relacionado con las Galerías MWNF aportado a otros proyectos MWNF. Por este motivo, algunos Socios aparecen dos o más veces.",
+  "gallery.partners.statusAffiliate": "Affiliate",
+  "gallery.partners.statusPartner": "Partner",
   "gallery.results.noObjectsInPeriod": "Ningún objeto de esta Galería corresponde a ese país y período.",
   "gallery.results.notInThisGallery": "no está en esta galería",
   "gallery.section.error": "Error",

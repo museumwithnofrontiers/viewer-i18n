@@ -1,3 +1,15 @@
+## 6.6.0 (2026-11-05)
+
+The galleries' partner badges (inventory-app#2423). Additive: every existing
+entry keeps its text.
+
+### Added
+
+- **gallery.partners.statusPartner**, **gallery.partners.statusAffiliate**:
+  "Partner" and "Affiliate", the status that ends each badge of the
+  galleries' partner list. In English in every language, as legacy printed
+  them.
+
 ## 6.5.0 (2026-10-30)
 
 Discover Islamic Art's Artistic Introduction, a mini-site of its own
