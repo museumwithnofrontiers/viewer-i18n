@@ -9,6 +9,16 @@ entry is removed or renamed.
   "Partner" and "Affiliate", the status that ends each badge of the
   galleries' partner list. In English in every language, as legacy printed
   them.
+- **gallery.timeline.selectCountry**, **.startDate**, **.endDate**,
+  **.alertCountry**, **.alertDates**: the Timeline page's form as legacy's
+  (TimelinePage.vue): the lists' first lines and the two alerts its Go
+  raised. In English in every language, as legacy printed them.
+- **gallery.era.ad**, **gallery.era.bc**: "A.D." and "B.C.", the galleries'
+  era words, where every other site reads `catalogue.era.ad`/`.bc` ("AD",
+  "BC"). Legacy's galleries printed them on every year (timeline and
+  collection lists, item sheet, timeline results); viewer-core 2.16.0's
+  `GALLERY_ERA_WORDS` points the gallery family at them. In English in every
+  language, as legacy printed them.
 
 ### Fixed
 

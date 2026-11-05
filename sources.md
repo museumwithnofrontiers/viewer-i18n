@@ -187,7 +187,12 @@ any more; their text lives on in the entry that replaced them.
 the status that ends each badge of the galleries' partner list ("Discover
 Islamic Art Partner", "Sharing History Affiliate"). The legacy gallery client
 wrote both words into its PartnersPage.vue and printed them in English in
-every language, so every language keeps the English.
+every language, so every language keeps the English. The same holds for the
+Timeline page's form, `gallery.timeline.selectCountry`, `.startDate`,
+`.endDate`, and the two alerts, `.alertCountry` and `.alertDates`, written
+into its TimelinePage.vue, and for the era words `gallery.era.ad` and
+`gallery.era.bc` ("A.D.", "B.C."), written into its timeline and collection
+code.
 
 Everything not listed — the Czech, Greek, Swedish and Turkish of most
 entries, every `catalogue.results.*` sentence, the `record.*` chrome that the
