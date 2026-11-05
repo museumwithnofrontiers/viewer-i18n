@@ -1,7 +1,7 @@
 ## 6.6.0 (2026-11-05)
 
-The galleries' partner badges (inventory-app#2423). Additive: every existing
-entry keeps its text.
+The galleries' partner badges and Timeline page (inventory-app#2423). No
+entry is removed or renamed.
 
 ### Added
 
@@ -9,6 +9,12 @@ entry keeps its text.
   "Partner" and "Affiliate", the status that ends each badge of the
   galleries' partner list. In English in every language, as legacy printed
   them.
+
+### Fixed
+
+- **gallery.timeline.intro** gives legacy's address, editing@museumwnf.net,
+  in every language. Every legacy gallery printed it (its
+  `VUE_APP_CONTACT_US_EMAIL`); the entry had office@museumwnf.net.
 
 ## 6.5.0 (2026-10-30)
 
