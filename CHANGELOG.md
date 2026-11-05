@@ -13,6 +13,10 @@ entry is removed or renamed.
   **.alertCountry**, **.alertDates**: the Timeline page's form as legacy's
   (TimelinePage.vue): the lists' first lines and the two alerts its Go
   raised. In English in every language, as legacy printed them.
+- **gallery.results.for**: "for", before a tile's project on the galleries'
+  hover card ("for *Discover Islamic Art*"), where the shared
+  `catalogue.results.forProject` says "for project". In English in every
+  language, as legacy printed it.
 - **gallery.era.ad**, **gallery.era.bc**: "A.D." and "B.C.", the galleries'
   era words, where every other site reads `catalogue.era.ad`/`.bc` ("AD",
   "BC"). Legacy's galleries printed them on every year (timeline and
