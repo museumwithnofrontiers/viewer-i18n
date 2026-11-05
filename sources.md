@@ -9,7 +9,8 @@ The legacy source is the `translation` table of the `mwnf3` database
 (`.legacy-database/data/mwnf3_translation.sql` in the inventory repository),
 keyed by `group_id:word_id`. Group 3 is `generic` (all sites), group 4 is
 `museum` (Discover Islamic Art, Discover Baroque Art), group 13 is Sharing
-History, 15 the thematic galleries, 18 the Carpet Art API.
+History, 15 the thematic galleries, 18 the Carpet Art API, 59 the gallery
+client's item sheet.
 
 A legacy value was taken when it was a real translation of the same label;
 trailing colons, `<br/>` and stray spaces were removed, since punctuation is
@@ -72,6 +73,9 @@ preferred over the generic one.
 | `core.section.database` | 6:home_database (pt tr); ar de es fr as in `gallery.section.database`, which it replaced | ar de es fr pt tr |
 | `core.section.partners` | ar de es fr as in `gallery.section.partners`, which it replaced | ar de es fr |
 | `core.section.timeline` | ar de es fr as in `gallery.section.timeline`, which it replaced | ar de es fr |
+| `gallery.related.dynasties` | 59:islamicDynasties | ar es fr |
+| `gallery.related.glossary` | 59:glossary | ar es fr |
+| `gallery.sheet.workingNumber` | 59:objWorkingNumber | ar de es fr |
 | `layout.banner.detailFrom` | ar de es fr as in `gallery.banner.detailFrom`, which it replaced | ar de es fr |
 | `partner.action.partnerProfile` | ar de es fr as in `gallery.action.partnerProfile`, which it replaced | ar de es fr |
 | `partner.action.readMore` | 3:read_more (ar es fr); ar de es fr as in `gallery.action.readMore`, which it replaced | ar de es fr |
@@ -192,7 +196,8 @@ Timeline page's form, `gallery.timeline.selectCountry`, `.startDate`,
 `.endDate`, and the two alerts, `.alertCountry` and `.alertDates`, written
 into its TimelinePage.vue, and for the era words `gallery.era.ad` and
 `gallery.era.bc` ("A.D.", "B.C."), written into its timeline and collection
-code.
+code. `gallery.related.exhibitions` ("Exhibition(s)") is 59:exhibitions,
+whose every language repeats the English.
 
 Everything not listed — the Czech, Greek, Swedish and Turkish of most
 entries, every `catalogue.results.*` sentence, the `record.*` chrome that the
