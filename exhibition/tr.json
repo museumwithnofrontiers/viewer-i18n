@@ -42,5 +42,10 @@
   "exhibition.theme.romanLabel": "Theme",
   "exhibition.theme.seeAllInTheme": "See all Items in this Theme",
   "exhibition.theme.seeItemEntry": "See Database entry for this Item",
+  "exhibition.theme.subthemeLabel": "Subtheme",
+  "exhibition.themes.collapseAll": "Collapse all Themes",
+  "exhibition.themes.expandAll": "Expand all Themes",
+  "exhibition.themes.seeGallery": "See Gallery for Theme",
+  "exhibition.themes.seeMore": "See more",
   "exhibition.timeline.intro": "**Have you already been at [Themes](#/themes) to do a tour through the Exhibition?**\n\nHere you will find information about historical events related to the topics of the Exhibition.\n\nCurrently, this page is a work-in-progress and the data entered are provisional.\n\nWe are doing our best to complete the Exhibition Timeline as soon as possible. If you are willing to contribute, please contact us at [office@museumwnf.net](mailto:office@museumwnf.net)."
 }
