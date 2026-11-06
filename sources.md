@@ -73,7 +73,9 @@ preferred over the generic one.
 | `core.section.database` | 6:home_database (pt tr); ar de es fr as in `gallery.section.database`, which it replaced | ar de es fr pt tr |
 | `core.section.partners` | ar de es fr as in `gallery.section.partners`, which it replaced | ar de es fr |
 | `core.section.timeline` | ar de es fr as in `gallery.section.timeline`, which it replaced | ar de es fr |
+| `gallery.related.audio`, `exhibition.sheet.relatedAudio` | 59:relatedAudio | es fr |
 | `gallery.related.dynasties` | 59:islamicDynasties | ar es fr |
+| `gallery.related.videos`, `exhibition.sheet.relatedVideos` | 59:relatedVideos | es fr |
 | `gallery.related.glossary` | 59:glossary | ar es fr |
 | `gallery.sheet.hideShortDescription` | 59:objShortDesc_hide | ar es fr |
 | `gallery.sheet.viewShortDescription` | 59:objShortDesc_show | ar es fr |

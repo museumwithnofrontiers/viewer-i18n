@@ -1,3 +1,16 @@
+## 6.10.0 (2026-11-06)
+
+The item sheet's audio and video headings as legacy's (inventory-app#2423, #2379). No entry is
+removed or renamed.
+
+### Added
+
+- **gallery.related.audio**, **gallery.related.videos**, **exhibition.sheet.relatedAudio**,
+  **exhibition.sheet.relatedVideos**: "Related Audio" and "Related Videos", the headings legacy's
+  galleries and exhibitions put over a record's audio and its videos (group 59 `relatedAudio`,
+  `relatedVideos`). Spanish and French as legacy translates them, English in the other
+  languages, as legacy showed them.
+
 ## 6.9.0 (2026-11-06)
 
 The exhibitions' pages as legacy's (inventory-app#2379). No entry is
