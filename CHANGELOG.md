@@ -9,9 +9,10 @@ The galleries' search-bar tip as legacy's (inventory-app#2423). No entry is remo
   to search the", then the gallery's name, then "database." The layout puts the name between them
   (viewer-layout 3.64.0). Legacy's gallery client wrote the sentence in English on every
   language's page (NavigationComponent.vue), so every language keeps the English.
-- **gallery.collection.introNamed**: the collection entrance's text as legacy's, naming the gallery
-  in its first sentence ("start exploring the *{gallery}* database"); the layout puts the
-  gallery's name in place of `{gallery}` (viewer-layout 3.64.0). English in every language, as
+- **gallery.collection.introBeforeName**, **gallery.collection.introAfterName**: the collection
+  entrance's text as legacy's, which names the gallery in its first sentence ("start exploring
+  the *Historical Cars* database"): the text before the name and the text after it, the layout
+  putting the name between them in italics (viewer-layout 3.64.0). English in every language, as
   legacy's CollectionSearch.vue wrote it. `gallery.collection.intro` stays for layouts before
   3.64.0.
 
