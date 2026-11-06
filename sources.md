@@ -202,7 +202,9 @@ into its TimelinePage.vue, and for the era words `gallery.era.ad` and
 `gallery.era.bc` ("A.D.", "B.C."), written into its timeline and collection
 code, and for the menu's search-bar tip, `gallery.notice.tip`, `.searchThe`
 and `.database`, written into its NavigationComponent.vue around the
-gallery's English name. `gallery.related.exhibitions` ("Exhibition(s)") is 59:exhibitions,
+gallery's English name, and for the partner profile's
+`gallery.partner.homepage`, `.viewObjects` and `.mapLabel`, written into its
+PartnerProfile.vue. `gallery.related.exhibitions` ("Exhibition(s)") is 59:exhibitions,
 whose every language repeats the English. So are the collection pages'
 words, `gallery.collection.filterBy` ("Filter by:"), `.filterFurtherBy`,
 `.resetFilters`, `.timelineForSearch` and the names the dropdowns open on,
