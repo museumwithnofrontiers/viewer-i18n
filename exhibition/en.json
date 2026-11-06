@@ -97,5 +97,18 @@
   "exhibition.themes.expandAll": "Expand all Themes",
   "exhibition.themes.seeGallery": "See Gallery for Theme",
   "exhibition.themes.seeMore": "See more",
-  "exhibition.timeline.intro": "**Have you already been at [Themes](#/themes) to do a tour through the Exhibition?**\n\nHere you will find information about historical events related to the topics of the Exhibition.\n\nCurrently, this page is a work-in-progress and the data entered are provisional.\n\nWe are doing our best to complete the Exhibition Timeline as soon as possible. If you are willing to contribute, please contact us at [office@museumwnf.net](mailto:office@museumwnf.net)."
+  "exhibition.timeline.country": "Country",
+  "exhibition.timeline.countryDescription": "Country | Description",
+  "exhibition.timeline.date": "Date",
+  "exhibition.timeline.description": "Description",
+  "exhibition.timeline.gallery": "Gallery",
+  "exhibition.timeline.heading": "Timeline",
+  "exhibition.timeline.intro": "**Have you already been at [Themes](#/themes) to do a tour through the Exhibition?**\n\nHere you will find information about historical events related to the topics of the Exhibition.\n\nCurrently, this page is a work-in-progress and the data entered are provisional.\n\nWe are doing our best to complete the Exhibition Timeline as soon as possible. If you are willing to contribute, please contact us at [office@museumwnf.net](mailto:office@museumwnf.net).",
+  "exhibition.timeline.noResults": "No results. Please use the drop-down fields above to start a new search.",
+  "exhibition.timeline.relatedContent": "RELATED CONTENT",
+  "exhibition.timeline.results": "Results",
+  "exhibition.timeline.seeGallery": "See Gallery",
+  "exhibition.timeline.seeTimeline": "See Timeline",
+  "exhibition.timeline.selectCountry": "Select a Country",
+  "exhibition.timeline.to": "to"
 }
