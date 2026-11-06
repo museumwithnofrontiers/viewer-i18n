@@ -199,7 +199,14 @@ Timeline page's form, `gallery.timeline.selectCountry`, `.startDate`,
 into its TimelinePage.vue, and for the era words `gallery.era.ad` and
 `gallery.era.bc` ("A.D.", "B.C."), written into its timeline and collection
 code. `gallery.related.exhibitions` ("Exhibition(s)") is 59:exhibitions,
-whose every language repeats the English.
+whose every language repeats the English. So are the collection pages'
+words, `gallery.collection.filterBy` ("Filter by:"), `.filterFurtherBy`,
+`.resetFilters`, `.timelineForSearch` and the names the dropdowns open on,
+`.selectCountry`, `.type`, `.periodDynasty`, `.subject`, `.material`,
+`.startDate` and `.endDate`, and the results page's lines, `.heading`,
+`.resultsOutOf`, `.objects`, `.allObjects`, `.none`, `.start`, `.end`,
+`.noResults` and `.timeline`, written into its CollectionSearch.vue and
+CollectionResults.vue.
 
 Everything not listed — the Czech, Greek, Swedish and Turkish of most
 entries, every `catalogue.results.*` sentence, the `record.*` chrome that the

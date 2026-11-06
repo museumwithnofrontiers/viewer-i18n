@@ -1,3 +1,32 @@
+## 6.8.0 (2026-11-06)
+
+The galleries' collection pages as legacy's (inventory-app#2423). No entry is
+removed or renamed.
+
+### Added
+
+- **gallery.collection.filterBy**, **.filterFurtherBy**: "Filter by:" and
+  "Filter further by:", above the collection pages' dropdowns;
+  **.resetFilters** and **.timelineForSearch**: "Reset filters" and "Timeline
+  for this Search", under the results page's.
+- **gallery.collection.selectCountry**, **.type**, **.periodDynasty**,
+  **.subject**, **.material**, **.startDate**, **.endDate**: the names the
+  gallery's dropdowns open on ("Select Country", "Type", "Period / Dynasty",
+  "Subject", "Material", "Start Date", "End Date"). English in every
+  language, as the legacy gallery client wrote them.
+- **gallery.collection.heading**, **.resultsOutOf**, **.objects**,
+  **.allObjects**, **.none**, **.start**, **.end**: the results page's two
+  lines, "Collection | <choices>" ("All Objects", "No Results", a date marked
+  "(Start)" or "(End)") and "<n> result(s) out of <total> objects";
+  **.noResults**: "No results. Click here to reset all filters.", with its
+  link; **.timeline**: "Timeline", in the link to the chosen country's
+  timeline. English in every language, as legacy wrote them.
+
+### Changed
+
+- **gallery.collection.intro** ends where legacy's collection page ended: the
+  closing "How to search" link is gone (the search results page links it).
+
 ## 6.7.0 (2026-11-05)
 
 The galleries' item sheet as legacy's (inventory-app#2423). No entry is
