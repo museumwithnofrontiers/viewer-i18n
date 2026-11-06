@@ -1,3 +1,26 @@
+## 6.11.0 (2026-11-06)
+
+The galleries' search-bar tip as legacy's (inventory-app#2423). No entry is removed or renamed.
+
+### Added
+
+- **gallery.notice.searchThe**, **gallery.notice.database**: legacy's tip, "The Database tool has
+  been replaced with the Search bar in the header. Please enter your search term(s) into the bar
+  to search the", then the gallery's name, then "database." The layout puts the name between them
+  (viewer-layout 3.64.0). Legacy's gallery client wrote the sentence in English on every
+  language's page (NavigationComponent.vue), so every language keeps the English.
+- **gallery.collection.introBeforeName**, **gallery.collection.introAfterName**: the collection
+  entrance's text as legacy's, which names the gallery in its first sentence ("start exploring
+  the *Historical Cars* database"): the text before the name and the text after it, the layout
+  putting the name between them in italics (viewer-layout 3.64.0). English in every language, as
+  legacy's CollectionSearch.vue wrote it. `gallery.collection.intro` stays for layouts before
+  3.64.0.
+
+### Changed
+
+- **gallery.notice.tip** is "Tip:" in every language, as legacy wrote it.
+- **gallery.notice.databaseReplaced** stays for layouts before 3.64.0, which still read it.
+
 ## 6.10.0 (2026-11-06)
 
 The item sheet's audio and video headings as legacy's (inventory-app#2423, #2379). No entry is
