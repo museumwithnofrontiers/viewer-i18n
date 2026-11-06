@@ -208,6 +208,22 @@ words, `gallery.collection.filterBy` ("Filter by:"), `.filterFurtherBy`,
 `.noResults` and `.timeline`, written into its CollectionSearch.vue and
 CollectionResults.vue.
 
+The exhibitions' pages as legacy's (inventory-app#2379) take the words the
+legacy exhibitions client wrote into its components, in English on every
+language's page, so every language keeps the English: the collection pages'
+`exhibition.collection.*` (CollectionSearch.vue, CollectionResults.vue), the
+era words `exhibition.era.ad` and `.bc`, the pager's `exhibition.pages.*`
+(PagesComponent.vue), the search's `exhibition.search.*` (SearchResults.vue),
+the partner pages' `exhibition.partners.*` and `exhibition.partner.homepage`
+and `.mapLabel` (PartnersPage.vue, PartnerProfile.vue), the themes pages'
+`exhibition.themes.*`, `exhibition.themeGallery.*` and
+`exhibition.theme.subthemeLabel` (ThemesPage.vue, ThemeGallery.vue,
+SubBanner.vue), and the timeline pages' `exhibition.timeline.*` but its
+introduction (TimelinePage.vue, TimelineResults.vue, TimelineGallery.vue).
+The item sheet's `exhibition.sheet.*` are the 59 ("Galleries common")
+entries the exhibitions client read, the galleries' `gallery.related.*` and
+`gallery.sheet.*` words; the exhibition bundle is built in English only.
+
 Everything not listed — the Czech, Greek, Swedish and Turkish of most
 entries, every `catalogue.results.*` sentence, the `record.*` chrome that the
 legacy sites hard-coded in English, the gallery essays (`about.body`,
