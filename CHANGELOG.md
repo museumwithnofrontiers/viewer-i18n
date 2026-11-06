@@ -1,3 +1,14 @@
+## 6.12.0 (2026-11-06)
+
+The galleries' partner profile as legacy's (inventory-app#2423). No entry is removed or renamed.
+
+### Added
+
+- **gallery.partner.homepage** ("Go to the Partner's homepage"), **gallery.partner.viewObjects**
+  ("View Objects") and **gallery.partner.mapLabel** ("Museum on Google Maps"): the words legacy's
+  gallery client wrote into its PartnerProfile.vue, in English on every language's page, so every
+  language keeps the English.
+
 ## 6.11.0 (2026-11-06)
 
 The galleries' search-bar tip as legacy's (inventory-app#2423). No entry is removed or renamed.
