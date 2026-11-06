@@ -1,3 +1,39 @@
+## 6.9.0 (2026-11-06)
+
+The exhibitions' pages as legacy's (inventory-app#2379). No entry is
+removed or renamed. Every new entry is English in every language, as the
+legacy exhibitions client wrote it.
+
+### Added
+
+- **exhibition.collection.\***: the collection entrance's and results page's
+  words — "Filter by:", "Filter further by:", "Filter by Theme:", "Select
+  Theme", "All Themes", "Select Country", "Type", "Type of object",
+  "Material", "Start Date", "End Date", "Reset filters"; the results' lines
+  "Collection | <choices>" ("All Items", "No Results", "(Start)", "(End)")
+  and "<n> result(s) out of <total> items"; **.noResults**, with its link.
+- **exhibition.era.ad**, **.bc**: "A.D.", "B.C.".
+- **exhibition.pages.first**, **.previous**, **.next**, **.last**: legacy's
+  pager.
+- **exhibition.search.\***: "Results of your search", "record(s) out of", "No
+  results", the box's placeholder, Search, Reset and "Search Term Tips", and
+  the empty search's three paragraphs (**.noResults**).
+- **exhibition.sheet.\***: the item sheet's "View/Hide Short Description",
+  "Glossary", "Islamic Dynasties / Period", "Exhibition(s)" and "MWNF
+  Working Number".
+- **exhibition.partners.statusPartner**, **.statusAffiliate**,
+  **.institutionPartner**, **.institutionAffiliate**, **.viewItems**: the
+  partner list's badges and link; **exhibition.partner.homepage**,
+  **.mapLabel**: the profile's "Go to the Partner's homepage" and "Museum on
+  Google Maps".
+- **exhibition.themes.expandAll**, **.collapseAll**, **.seeMore**,
+  **.seeGallery**, **exhibition.themeGallery.filterBy**, **.select**, **.top**,
+  **exhibition.theme.subthemeLabel**: the themes pages.
+- **exhibition.timeline.\***: the timeline pages' words — "Select a
+  Country", "Timeline | <start> to <end> | <n> Results", "Country", "Date",
+  "Description", "Country | Description", "RELATED CONTENT", "See Gallery",
+  "Gallery", "See Timeline" and the empty results' sentence.
+
 ## 6.8.0 (2026-11-06)
 
 The galleries' collection pages as legacy's (inventory-app#2423). No entry is
