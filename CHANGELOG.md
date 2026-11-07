@@ -1,3 +1,11 @@
+## 6.14.0 (2026-11-07)
+
+An exhibition's "Related Audio/Videos" on its theme and About pages (inventory-app#2491). No entry is removed or renamed.
+
+### Added
+
+- **exhibition.sheet.relatedAudioVideos** ("Related Audio and Videos"): legacy's heading (translation group 59, `relatedAudioVideos`) over a page that lists both audio and video. Legacy has it in English only, so every language keeps the English, as legacy's fallback showed it.
+
 ## 6.13.0 (2026-11-07)
 
 The galleries' pages of records as legacy's (inventory-app#2491). No entry is removed or renamed.
