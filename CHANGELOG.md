@@ -1,3 +1,14 @@
+## 6.13.0 (2026-11-07)
+
+The galleries' pages of records as legacy's (inventory-app#2491). No entry is removed or renamed.
+
+### Added
+
+- **gallery.pages.first** ("First"), **gallery.pages.previous** ("Previous"), **gallery.pages.next** ("Next")
+  and **gallery.pages.last** ("Last"): the words legacy's gallery client wrote into its PagesComponent.vue,
+  in English on every language's page, so every language keeps the English. viewer-layout's `LegacyPages`
+  reads them on a gallery, as it reads `exhibition.pages.*` on an exhibition.
+
 ## 6.12.0 (2026-11-06)
 
 The galleries' partner profile as legacy's (inventory-app#2423). No entry is removed or renamed.
