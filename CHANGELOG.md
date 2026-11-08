@@ -1,3 +1,10 @@
+## 6.15.0 (2026-11-08)
+
+A gallery's Related Objects as legacy's (inventory-app#2491). No entry is removed or renamed.
+
+### Added
+
+- **gallery.related.objects** ("Related Objects"): legacy's heading over an item's related objects (translation group 59, `relatedObjects`). Legacy has it in English only, so every language keeps the English, as legacy's fallback showed it.
 ## 6.14.0 (2026-11-07)
 
 An exhibition's "Related Audio/Videos" on its theme and About pages (inventory-app#2491). No entry is removed or renamed.
