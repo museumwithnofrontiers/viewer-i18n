@@ -1,3 +1,12 @@
+## 6.16.0 (2026-11-09)
+
+An exhibition's monument sheet and partner badges as legacy's demo shows them since MWNF-621 (inventory-app#2491). No entry is removed or renamed.
+
+### Added
+
+- **sheet.dxa.monumentName** ("Name of Monument"), **sheet.dxa.monumentAlsoKnownAs** ("Other name of the Monument"), **sheet.dxa.responsibleInstitution** ("Responsible institution"), **sheet.dxa.dateOfMonument** ("Date of Monument"), **sheet.dxa.architects** ("Architect(s) / Masterbuilder(s)"), **sheet.dxa.monumentArtists** ("Artists"), **sheet.dxa.monumentType** ("Denomination / Type of Monument"), **sheet.dxa.patrons** ("Patrons"), **sheet.dxa.history** ("History"), **sheet.dxa.monumentDatationMethod** ("How Monument was dated"), **sheet.dxa.monumentCopyrightInformation** ("Additional copyright information"): the labels legacy's item sheet gives a monument (its `mon*` entries). Legacy has them in English only, so every language keeps the English, as legacy's fallback showed it.
+- **exhibition.partners.statusAssociated** ("Associated"), **exhibition.partners.statusFurtherAssociated** ("Further associated"): a partner's role on the exhibition's Partners page, as legacy's client writes it, in English on every language's page.
+- **exhibition.results.for** ("for"): the "for <project>" line of an exhibition's item tile, which legacy's client writes in English.
 ## 6.15.0 (2026-11-08)
 
 A gallery's Related Objects as legacy's (inventory-app#2491). No entry is removed or renamed.
