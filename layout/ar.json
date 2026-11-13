@@ -1,5 +1,7 @@
 {
   "layout.banner.detailFrom": "تفصيل من",
+  "layout.globalSearch.label": "البحث في قاعدة بيانات متحف بلا حدود الشاملة",
+  "layout.globalSearch.submit": "ابحث",
   "layout.hyperlinks.label": "روابط ذات صلة",
   "layout.language.label": "اللغة",
   "layout.nav.label": "التنقل الرئيسي",

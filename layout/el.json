@@ -1,5 +1,7 @@
 {
   "layout.banner.detailFrom": "Λεπτομέρεια από",
+  "layout.globalSearch.label": "Αναζήτηση στη συνολική βάση δεδομένων MWNF",
+  "layout.globalSearch.submit": "Αναζήτηση",
   "layout.hyperlinks.label": "Σχετικοί σύνδεσμοι",
   "layout.language.label": "Γλώσσα",
   "layout.nav.label": "Κύρια πλοήγηση",
