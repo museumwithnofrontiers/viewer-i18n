@@ -21,5 +21,8 @@
   "standalone.partner.others": "Autres partenaires",
   "standalone.partner.viewInstitutions": "voir plutôt les institutions partenaires",
   "standalone.partner.viewMuseums": "voir plutôt les musées partenaires",
-  "standalone.permanentCollection.intro": "Choisissez un filtre pour parcourir la Collection permanente. Sélectionnez une catégorie ci-dessous, puis une valeur, et cliquez sur **Parcourir**."
+  "standalone.permanentCollection.intro": "Choisissez un filtre pour parcourir la Collection permanente. Sélectionnez une catégorie ci-dessous, puis une valeur, et cliquez sur **Parcourir**.",
+  "standalone.related.exhibitionTrail": "Visite virtuelle de l’Itinéraire-Exposition",
+  "standalone.related.seeAlso": "Voir aussi",
+  "standalone.related.travelBook": "Nos guides de voyage"
 }

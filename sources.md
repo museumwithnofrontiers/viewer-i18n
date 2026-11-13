@@ -342,3 +342,70 @@ nothing translated new.
 | `minisiteArtIntro.header.*` | portal_link, back_portal_mouseover, back_to_section, Back_to_diaHome |
 | `minisiteArtIntro.item.*` | showzoom, showdetail, moreinfo_item |
 | `minisiteArtIntro.footer.*` | footer1, footer2, footer3, footer4, cookie_policy, footer5 |
+
+## The Publications site's words (`publications.*`)
+
+The Publications site replaces books.museumwnf.org (inventory-app#2541). Its
+words are the legacy client's (`book-client`): the labels it read from the
+book API's `site_lang` dictionary (`versionLanguages`, `versionAuthors`,
+`versionEditions`, …, without their trailing colons), and the texts it wrote
+into its pages in English (the header, "See All", "Image Coming Soon", the
+search form's placeholders and buttons, "Search Results", the pagination).
+The category names are `books_category` / `books_category_names`, which
+legacy kept in English only, and the footer's links are the portal footer the
+client read from `www.museumwnf.org/api/footer`. Nothing was translated new.
+
+Legacy's pages are English, whatever the book (every route but the book page
+loads `en`), so the bundle offers English. A book page reads its labels in the
+book's language and falls back to English, as legacy's did: the few labels
+legacy translated are in the other files (`versionEditionsOfLanguage`,
+`versionEditions`, in ar de es fa fr it pt tr), with the theme names.
+
+| Entries | Legacy words |
+|---|---|
+| `publications.header.*` | the header's texts (HeaderComponent.vue); bk_about, bk_contact |
+| `publications.menu.new`, `publications.category.new` | "NEW BOOKS" and "NEW", written by the client (functions.js, HomePage.vue) |
+| `publications.category.*` | books_category_names 2–5 |
+| `publications.home.seeAll`, `publications.card.imageComingSoon` | written into HomePage.vue, CategoryPage.vue, ResultsPage.vue |
+| `publications.card.hover` | versionHover |
+| `publications.search.explanation` | searchExplanation |
+| `publications.search.*` (the rest) | the placeholders, the first options and the buttons of HeaderComponent.vue |
+| `publications.results.title`, `publications.results.for` | written into ResultsPage.vue |
+| `publications.results.none`, `publications.results.reset` | searchNoResult, resetSearch |
+| `publications.pagination.*` | written into PagesComponent.vue |
+| `publications.format.*` | the book API's types (`/api/type`): book, digp, ebook |
+| `publications.publication.languages` | versionLanguages |
+| `publications.edition.*` | versionEditionsOfLanguage, versionEditions, versionEdition, versionLookInside, versionCredits, versionAuthors, versionPhotographers, versionEditors, versionPages, versionImages, versionPlans, versionPublishers, versionISBN, versionAbout, versionMoreAbout |
+| `publications.theme.*` | books_themes_names, by the theme's English name (ar de es fr it pt tr) |
+| `publications.footer.*` | the portal footer (`/api/footer`): its four columns and its bottom line |
+
+## The Travels site's words (`travels.*`)
+
+The Travels site replaces the Exhibition Trails of travels.museumwnf.org
+(inventory-app#2541). Its words are the legacy pages' (`travel_et_home.php`,
+`travel_et_trail.php`, `travel_et_trailDetail.php`, `travel_et_itenary.php`
+and their menus), from the `translation` table, group 8; the header's are
+English only in legacy (`header.include.php`). The trail pages read their
+labels in the trail's language, which is the page language here; where legacy
+had no translation every language keeps the English, as legacy's pages
+showed it. Nothing was translated new. Its languages are the ones the Travels
+package offers.
+
+| Entries | Legacy words |
+|---|---|
+| `travels.header.*` | travel_main_head, travel_home_mouseover, portal_home, portal_home_mouseover, travel_books |
+| `travels.nav.*` | travel_home, travel_exhibitiontrails |
+| `travels.home.*` | travel_about, travel_et_dText, country, theme, select_country, select_theme |
+| `travels.list.*` | travel_country_etcText, travel_et_trail_dTText |
+| `travels.trail.*` | country, et_region, et_catalouge_available, main_location_visited, virtual_visit, refer_catalogue, see_also, travel_etdescription, view_itenary, viewItenaries_over, exhib_curated_by, travel_description, exhib_curated, exhib_photo_by |
+| `travels.itinerary.*` | Itinerary, view_image_gallery, et_vgallery_over, travel_itdescription, view_image_gallery_head, prev_item, next_item |
+| `travels.action.back`, `travels.picture.enlarge` | Back, click_to_see |
+
+## The products' "See also" (`standalone.related.*`)
+
+Discover Islamic Art's and Discover Baroque Art's item sheets
+(`database_item.php`) end with a "See also" block: Islamic Art's "Related MWNF
+Travel Book", Baroque Art's exhibition trails (inventory-app#2538). The words
+are gn_also (group 3), pc_thematic_travel_books and pc_item_linkedtrails_db
+(group 4), in ar en es fr; every other language keeps the English, as legacy's
+fallback showed it.

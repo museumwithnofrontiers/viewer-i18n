@@ -21,5 +21,8 @@
   "standalone.partner.others": "Övriga partner",
   "standalone.partner.viewInstitutions": "visa partnerinstitutioner i stället",
   "standalone.partner.viewMuseums": "visa partnermuseer i stället",
-  "standalone.permanentCollection.intro": "Välj ett filter för att bläddra i den permanenta samlingen. Välj en kategori nedan, sedan ett värde, och klicka på **Bläddra**."
+  "standalone.permanentCollection.intro": "Välj ett filter för att bläddra i den permanenta samlingen. Välj en kategori nedan, sedan ett värde, och klicka på **Bläddra**.",
+  "standalone.related.exhibitionTrail": "Virtual Visit Exhibition Trail",
+  "standalone.related.seeAlso": "See also",
+  "standalone.related.travelBook": "Related MWNF Travel Book"
 }

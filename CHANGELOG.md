@@ -1,3 +1,12 @@
+## 6.17.0 (2026-11-13)
+
+The texts of the two new standalone sites, Publications and Travels, each a bundle of its own, and the products' "See also" on an item sheet (inventory-app#2541, #2538). No entry is removed or renamed.
+
+### Added
+
+- **publications** namespace and bundle (`@museumwnf/viewer-i18n/publications`: `core` + `layout` + `publications`): legacy books.museumwnf.org's labels, its header, search form, lists, pagination, a publication's page and its footer, and the books' theme names (`publications.theme.*`) in the eight languages legacy translated them in. Legacy's pages are English, so the bundle offers English; the labels legacy translated for a book's own language (`publications.edition.languageVersion`, `publications.edition.editionsOf`) are in ar de es fa fr it pt tr, the rest falls back to English on a book's page as legacy's did.
+- **travels** namespace and bundle (`@museumwnf/viewer-i18n/travels`: `core` + `layout` + `record` + `travels`): the labels of legacy travels.museumwnf.org's Exhibition Trails pages (translation group 8), in de en es fr it pt tr, English where legacy had none.
+- **standalone.related.seeAlso** ("See also"), **standalone.related.travelBook** ("Related MWNF Travel Book"), **standalone.related.exhibitionTrail** ("Virtual Visit Exhibition Trail"): the "See also" block of Discover Islamic Art's and Discover Baroque Art's item sheets (gn_also, pc_thematic_travel_books, pc_item_linkedtrails_db), in ar en es fr; every other language keeps the English, as legacy's fallback showed it.
 ## 6.16.0 (2026-11-09)
 
 An exhibition's monument sheet and partner badges as legacy's demo shows them since MWNF-621 (inventory-app#2491). No entry is removed or renamed.

@@ -64,6 +64,8 @@ those exact characters, angle brackets and all. Use Markdown.
 | `timeline/` | the timeline pages: the country and period form, the results, the errors — worded so the same text serves a gallery, an exhibition or a standalone site |
 | `partner/` | the partner pages: the profile fields, the map, the list and its sorting, "not found" — worded the same way |
 | `standalone/` | the three products (Islamic Art, Baroque Art, Sharing History): their home page, identity, navigation, exhibition list and partner lists |
+| `publications/` | the Publications site (legacy's books.museumwnf.org): its header, search, lists and a publication's page |
+| `travels/` | the Travels site (legacy's Exhibition Trails on travels.museumwnf.org): its header, trail lists, trail and itinerary pages |
 
 ### Which section a text belongs in
 
@@ -135,6 +137,8 @@ Each kind of website receives one prebuilt bundle, and nothing else:
 | Baroque Art's mini-sites | `@museumwnf/viewer-i18n/minisiteBaroque` | `core` + `layout` + `record` + `minisiteBaroque` |
 | Sharing History's mini-sites | `@museumwnf/viewer-i18n/minisiteSharingHistory` | `core` + `layout` + `record` + `minisiteSharingHistory` |
 | Discover Islamic Art's Artistic Introduction | `@museumwnf/viewer-i18n/minisiteArtIntro` | `core` + `layout` + `record` + `minisiteArtIntro` |
+| Publications (books.museumwnf.org) | `@museumwnf/viewer-i18n/publications` | `core` + `layout` + `publications` |
+| Travels (travels.museumwnf.org's Exhibition Trails) | `@museumwnf/viewer-i18n/travels` | `core` + `layout` + `record` + `travels` |
 
 ```js
 import { catalogues } from '@museumwnf/viewer-i18n/gallery'
@@ -152,7 +156,7 @@ It says which bundle it receives, and what its own entries are called, in its
 "viewerI18n": { "class": "gallery", "namespace": "carpets" }
 ```
 
-`class` is one of `standalone`, `gallery`, `exhibition`, `minisite`, `minisiteBaroque`, `minisiteSharingHistory`, `minisiteArtIntro`. `namespace` is one
+`class` is one of `standalone`, `gallery`, `exhibition`, `minisite`, `minisiteBaroque`, `minisiteSharingHistory`, `minisiteArtIntro`, `publications`, `travels`. `namespace` is one
 lowercase word, no hyphens (`carpets`, `waterInIslam`) — it cannot be one of
 the shared section names, and it is the prefix the website's own entries carry.
 The checks below read this to know what a file may contain, so they refuse to
