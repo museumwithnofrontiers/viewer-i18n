@@ -1,0 +1,12 @@
+{
+  "search.error.unavailable": "البحث غير متاح حاليًا. يرجى المحاولة لاحقًا.",
+  "search.facet.allSites": "جميع المواقع",
+  "search.facet.allTypes": "جميع الأنواع",
+  "search.facet.site": "الموقع",
+  "search.results.backTo": "العودة إلى",
+  "search.results.more": "المزيد من النتائج",
+  "search.results.openIn": "افتح في",
+  "search.type.detail": "تفصيل",
+  "search.type.monument": "معلم",
+  "search.type.object": "تحفة"
+}

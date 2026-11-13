@@ -1,0 +1,12 @@
+{
+  "search.error.unavailable": "Η αναζήτηση δεν είναι διαθέσιμη αυτή τη στιγμή. Δοκιμάστε ξανά αργότερα.",
+  "search.facet.allSites": "Όλοι οι ιστότοποι",
+  "search.facet.allTypes": "Όλοι οι τύποι",
+  "search.facet.site": "Ιστότοπος",
+  "search.results.backTo": "Επιστροφή σε",
+  "search.results.more": "Περισσότερα αποτελέσματα",
+  "search.results.openIn": "Άνοιγμα σε",
+  "search.type.detail": "Λεπτομέρεια",
+  "search.type.monument": "Μνημείο",
+  "search.type.object": "Αντικείμενο"
+}

@@ -1,5 +1,7 @@
 {
   "layout.banner.detailFrom": "Detalj ur",
+  "layout.globalSearch.label": "Sök i MWNF:s samlade databas",
+  "layout.globalSearch.submit": "Sök",
   "layout.hyperlinks.label": "Relaterade länkar",
   "layout.language.label": "Språk",
   "layout.nav.label": "Huvudnavigering",

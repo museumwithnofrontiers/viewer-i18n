@@ -1,5 +1,7 @@
 {
   "layout.banner.detailFrom": "Détail de",
+  "layout.globalSearch.label": "Rechercher dans la base de données globale MWNF",
+  "layout.globalSearch.submit": "Rechercher",
   "layout.hyperlinks.label": "Liens connexes",
   "layout.language.label": "Langue",
   "layout.nav.label": "Navigation principale",

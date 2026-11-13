@@ -1,0 +1,12 @@
+{
+  "search.error.unavailable": "Sökningen är inte tillgänglig just nu. Försök igen senare.",
+  "search.facet.allSites": "Alla webbplatser",
+  "search.facet.allTypes": "Alla typer",
+  "search.facet.site": "Webbplats",
+  "search.results.backTo": "Tillbaka till",
+  "search.results.more": "Fler resultat",
+  "search.results.openIn": "Öppna i",
+  "search.type.detail": "Detalj",
+  "search.type.monument": "Monument",
+  "search.type.object": "Föremål"
+}

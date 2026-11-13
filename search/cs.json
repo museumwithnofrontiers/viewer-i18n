@@ -1,0 +1,12 @@
+{
+  "search.error.unavailable": "Vyhledávání je momentálně nedostupné. Zkuste to prosím později.",
+  "search.facet.allSites": "Všechny webové stránky",
+  "search.facet.allTypes": "Všechny typy",
+  "search.facet.site": "Webová stránka",
+  "search.results.backTo": "Zpět na",
+  "search.results.more": "Další výsledky",
+  "search.results.openIn": "Otevřít v",
+  "search.type.detail": "Detail",
+  "search.type.monument": "Památka",
+  "search.type.object": "Předmět"
+}

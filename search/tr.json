@@ -1,0 +1,12 @@
+{
+  "search.error.unavailable": "Arama şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyin.",
+  "search.facet.allSites": "Tüm web siteleri",
+  "search.facet.allTypes": "Tüm türler",
+  "search.facet.site": "Web sitesi",
+  "search.results.backTo": "Geri dön",
+  "search.results.more": "Daha fazla sonuç",
+  "search.results.openIn": "Şurada aç",
+  "search.type.detail": "Ayrıntı",
+  "search.type.monument": "Anıt",
+  "search.type.object": "Eser"
+}

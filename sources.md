@@ -409,3 +409,17 @@ Travel Book", Baroque Art's exhibition trails (inventory-app#2538). The words
 are gn_also (group 3), pc_thematic_travel_books and pc_item_linkedtrails_db
 (group 4), in ar en es fr; every other language keeps the English, as legacy's
 fallback showed it.
+
+## The global search (`layout.globalSearch.*`, `search.*`)
+
+The box a site shows when it turns the global search on (inventory-app M15,
+ADR 005) carries the same words as `catalogue.search.overallDatabase`
+(legacy's goToFullSearch, "Search Overall MWNF Database") and
+`catalogue.search.submit` (3:search), copied into `layout` because every kind
+of website receives `layout` and not every kind receives `catalogue`.
+
+The search site's own `search.*` entries (its site filter, the item types,
+"Open in", "Back to", "More results" and the message when the search is
+unavailable) have no legacy source: legacy's overall search was a database
+form on the portal, without these labels. They are translated new, in every
+language the search site offers.

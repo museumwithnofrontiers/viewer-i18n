@@ -1,3 +1,12 @@
+## 6.18.0 (2026-11-13)
+
+The global search's texts (inventory-app M15, ADR 005). No entry is removed or renamed.
+
+### Added
+
+- **layout.globalSearch.label**, **layout.globalSearch.submit**: the search box a site shows when it turns the global search on (viewer-layout's `GlobalSearchBox`), the words of `catalogue.search.overallDatabase` and `catalogue.search.submit` in every language.
+- **search** namespace and bundle (`@museumwnf/viewer-i18n/search`: `core` + `layout` + `catalogue` + `search`), for the search site: its site filter (`search.facet.site`, `search.facet.allSites`, `search.facet.allTypes`), the item types (`search.type.object`, `search.type.monument`, `search.type.detail`), `search.results.openIn`, `search.results.backTo`, `search.results.more` and `search.error.unavailable`, in ar cs de el en es fr it pt se tr. Class `search` in a site's `viewerI18n`.
+
 ## 6.17.0 (2026-11-13)
 
 The texts of the two new standalone sites, Publications and Travels, each a bundle of its own, and the products' "See also" on an item sheet (inventory-app#2541, #2538). No entry is removed or renamed.

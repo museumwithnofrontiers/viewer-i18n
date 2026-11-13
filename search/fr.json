@@ -1,0 +1,12 @@
+{
+  "search.error.unavailable": "La recherche n’est pas disponible pour le moment. Veuillez réessayer plus tard.",
+  "search.facet.allSites": "Tous les sites web",
+  "search.facet.allTypes": "Tous les types",
+  "search.facet.site": "Site web",
+  "search.results.backTo": "Retour à",
+  "search.results.more": "Plus de résultats",
+  "search.results.openIn": "Ouvrir dans",
+  "search.type.detail": "Détail",
+  "search.type.monument": "Monument",
+  "search.type.object": "Objet"
+}

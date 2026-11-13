@@ -1,5 +1,7 @@
 {
   "layout.banner.detailFrom": "Detail z",
+  "layout.globalSearch.label": "Prohledat celkovou databázi MWNF",
+  "layout.globalSearch.submit": "Hledat",
   "layout.hyperlinks.label": "Související odkazy",
   "layout.language.label": "Jazyk",
   "layout.nav.label": "Hlavní navigace",
