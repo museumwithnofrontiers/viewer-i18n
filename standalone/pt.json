@@ -21,5 +21,8 @@
   "standalone.partner.others": "Outros parceiros",
   "standalone.partner.viewInstitutions": "ver antes as instituições parceiras",
   "standalone.partner.viewMuseums": "ver antes os museus parceiros",
-  "standalone.permanentCollection.intro": "Selecione um filtro para percorrer a Coleção permanente. Escolha uma categoria abaixo, depois um valor, e clique em **Percorrer**."
+  "standalone.permanentCollection.intro": "Selecione um filtro para percorrer a Coleção permanente. Escolha uma categoria abaixo, depois um valor, e clique em **Percorrer**.",
+  "standalone.related.exhibitionTrail": "Virtual Visit Exhibition Trail",
+  "standalone.related.seeAlso": "See also",
+  "standalone.related.travelBook": "Related MWNF Travel Book"
 }

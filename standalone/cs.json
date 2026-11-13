@@ -21,5 +21,8 @@
   "standalone.partner.others": "Další partneři",
   "standalone.partner.viewInstitutions": "zobrazit místo toho partnerské instituce",
   "standalone.partner.viewMuseums": "zobrazit místo toho partnerská muzea",
-  "standalone.permanentCollection.intro": "Vyberte filtr a procházejte stálou sbírku. Zvolte níže kategorii, potom hodnotu a klikněte na **Procházet**."
+  "standalone.permanentCollection.intro": "Vyberte filtr a procházejte stálou sbírku. Zvolte níže kategorii, potom hodnotu a klikněte na **Procházet**.",
+  "standalone.related.exhibitionTrail": "Virtual Visit Exhibition Trail",
+  "standalone.related.seeAlso": "See also",
+  "standalone.related.travelBook": "Related MWNF Travel Book"
 }

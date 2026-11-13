@@ -21,5 +21,8 @@
   "standalone.partner.others": "Άλλοι εταίροι",
   "standalone.partner.viewInstitutions": "προβολή των συνεργαζόμενων φορέων",
   "standalone.partner.viewMuseums": "προβολή των συνεργαζόμενων μουσείων",
-  "standalone.permanentCollection.intro": "Επιλέξτε ένα φίλτρο για να περιηγηθείτε στη Μόνιμη Συλλογή. Διαλέξτε μια κατηγορία παρακάτω, έπειτα μια τιμή, και πατήστε **Περιήγηση**."
+  "standalone.permanentCollection.intro": "Επιλέξτε ένα φίλτρο για να περιηγηθείτε στη Μόνιμη Συλλογή. Διαλέξτε μια κατηγορία παρακάτω, έπειτα μια τιμή, και πατήστε **Περιήγηση**.",
+  "standalone.related.exhibitionTrail": "Virtual Visit Exhibition Trail",
+  "standalone.related.seeAlso": "See also",
+  "standalone.related.travelBook": "Related MWNF Travel Book"
 }

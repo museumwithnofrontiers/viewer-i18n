@@ -21,5 +21,8 @@
   "standalone.partner.others": "الشركاء الآخرون",
   "standalone.partner.viewInstitutions": "اعرض المؤسسات الشريكة بدلاً من ذلك",
   "standalone.partner.viewMuseums": "اعرض المتاحف الشريكة بدلاً من ذلك",
-  "standalone.permanentCollection.intro": "اختر مرشِّحاً لتصفح المجموعة الدائمة. اختر فئة أدناه، ثم اختر قيمة وانقر **تصفّح**."
+  "standalone.permanentCollection.intro": "اختر مرشِّحاً لتصفح المجموعة الدائمة. اختر فئة أدناه، ثم اختر قيمة وانقر **تصفّح**.",
+  "standalone.related.exhibitionTrail": "مسار الزيارة الإفتراضي",
+  "standalone.related.seeAlso": "أنظر أيضا",
+  "standalone.related.travelBook": "كتاب رحلات متحف بلا حدود ذو العلاقة"
 }

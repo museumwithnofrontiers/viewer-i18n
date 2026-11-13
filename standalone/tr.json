@@ -21,5 +21,8 @@
   "standalone.partner.others": "Diğer ortaklar",
   "standalone.partner.viewInstitutions": "bunun yerine ortak kurumları görüntüle",
   "standalone.partner.viewMuseums": "bunun yerine ortak müzeleri görüntüle",
-  "standalone.permanentCollection.intro": "Kalıcı Koleksiyona göz atmak için bir filtre seçin. Aşağıdan bir kategori, ardından bir değer seçin ve **Göz at** düğmesine tıklayın."
+  "standalone.permanentCollection.intro": "Kalıcı Koleksiyona göz atmak için bir filtre seçin. Aşağıdan bir kategori, ardından bir değer seçin ve **Göz at** düğmesine tıklayın.",
+  "standalone.related.exhibitionTrail": "Virtual Visit Exhibition Trail",
+  "standalone.related.seeAlso": "See also",
+  "standalone.related.travelBook": "Related MWNF Travel Book"
 }
