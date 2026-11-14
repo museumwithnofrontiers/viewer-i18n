@@ -221,7 +221,9 @@ language's page, so every language keeps the English: the collection pages'
 era words `exhibition.era.ad` and `.bc`, the pager's `exhibition.pages.*`
 (PagesComponent.vue), the search's `exhibition.search.*` (SearchResults.vue),
 the partner pages' `exhibition.partners.*` and `exhibition.partner.homepage`
-and `.mapLabel` (PartnersPage.vue, PartnerProfile.vue), the themes pages'
+and `.mapLabel`, and the items links `exhibition.action.viewObjects`,
+`.viewMonuments` and `.viewItems` (PartnersPage.vue, PartnerProfile.vue, as
+MWNF-653 worded them on 12 November 2026), the themes pages'
 `exhibition.themes.*`, `exhibition.themeGallery.*` and
 `exhibition.theme.subthemeLabel` (ThemesPage.vue, ThemeGallery.vue,
 SubBanner.vue), and the timeline pages' `exhibition.timeline.*` but its

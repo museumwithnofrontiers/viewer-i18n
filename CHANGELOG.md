@@ -1,3 +1,15 @@
+## 6.19.0 (2026-11-14)
+
+An exhibition's partner pages in the words legacy's exhibitions client uses since MWNF-653 (12 November 2026). No entry is removed or renamed.
+
+### Added
+
+- **exhibition.action.viewObjects** ("View Objects"), **exhibition.action.viewMonuments** ("View Monuments"): a partner's items link on the Partners page and the partner's page, named by what the partner holds; "View Items" (`exhibition.action.viewItems`) stays for a partner holding both. English on every language's page, as legacy writes them.
+
+### Changed
+
+- **exhibition.partner.mapLabel**: "Partner on Google Maps" (was "Museum on Google Maps"), in every language.
+
 ## 6.18.0 (2026-11-13)
 
 The global search's texts (inventory-app M15, ADR 005). No entry is removed or renamed.
