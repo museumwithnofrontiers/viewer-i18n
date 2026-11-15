@@ -1,3 +1,11 @@
+## 6.20.0 (2026-11-15)
+
+An item sheet's related monuments under a heading of their own, apart from its related objects, as Discover Islamic Art's legacy sheet drew them (inventory-app#2611). No entry is removed or renamed.
+
+### Added
+
+- **exhibition.related.monuments**, **gallery.related.monuments** ("Related Monuments"): the heading over an item's related monuments, from legacy's "Related monuments" (translation groups 4 and 61, `item_linkedmonuments`), cased as the "Related Objects" heading beside it. English on every language's page, as that heading is.
+
 ## 6.19.0 (2026-11-14)
 
 An exhibition's partner pages in the words legacy's exhibitions client uses since MWNF-653 (12 November 2026). No entry is removed or renamed.
