@@ -77,7 +77,8 @@ preferred over the generic one.
 | `gallery.related.dynasties` | 59:islamicDynasties | ar es fr |
 | `gallery.related.videos`, `exhibition.sheet.relatedVideos` | 59:relatedVideos | es fr |
 | `gallery.related.glossary` | 59:glossary | ar es fr |
-| `gallery.related.monuments`, `exhibition.related.monuments` | 4:item_linkedmonuments / 61:item_linkedmonuments ("Related monuments", Discover Islamic Art's sheet), cased as the "Related Objects" heading beside it. Legacy also has it in ar and es, but the objects heading (59:relatedObjects) is English only, so both stay English | — |
+| `gallery.related.monuments`, `exhibition.related.monuments` | 4:item_linkedmonuments / 61:item_linkedmonuments ("Related monuments", Discover Islamic Art's sheet), English cased as the "Related Objects" heading beside it. The gallery sheets take legacy's ar and es; the exhibition sheets, English in every language, keep the English | ar es (gallery) |
+| `gallery.related.objects` | 59:relatedObjects (English); ar and es from 4:item_relatedobjects / 61:item_relatedobjects, translated with the monuments heading beside it | ar es |
 | `gallery.sheet.hideShortDescription` | 59:objShortDesc_hide | ar es fr |
 | `gallery.sheet.viewShortDescription` | 59:objShortDesc_show | ar es fr |
 | `gallery.sheet.workingNumber` | 59:objWorkingNumber | ar de es fr |
