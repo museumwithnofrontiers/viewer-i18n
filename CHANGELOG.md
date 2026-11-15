@@ -1,3 +1,11 @@
+## 6.21.0 (2026-11-15)
+
+A gallery item sheet's two related headings in Arabic and Spanish, the gallery sheets' translated languages. No entry is removed or renamed.
+
+### Changed
+
+- **gallery.related.objects** (ar "القطع المتعلقة", es "Objetos relacionados") and **gallery.related.monuments** (ar "المعالم المتعلقة", es "Monumentos relacionados"): legacy's Discover Islamic Art wording (translation groups 4 and 61, `item_relatedobjects`, `item_linkedmonuments`). The exhibition sheets, English in every language, keep the English; French has no legacy translation and keeps it too.
+
 ## 6.20.0 (2026-11-15)
 
 An item sheet's related monuments under a heading of their own, apart from its related objects, as Discover Islamic Art's legacy sheet drew them (inventory-app#2611). No entry is removed or renamed.
